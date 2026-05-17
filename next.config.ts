@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  images: {
+    unoptimized: true, // Required for Next.js static export with images
+  },
+  basePath: "/weighbridge-site", // GitHub Pages repo path prefix
 };
 
 export default nextConfig;
