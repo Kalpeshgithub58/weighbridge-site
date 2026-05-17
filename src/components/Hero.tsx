@@ -70,7 +70,7 @@ export default function Hero() {
           <div className="relative hidden lg:block">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/40 border border-white/10">
               <img
-                src="/images/hero.png"
+                src="/weighbridge-site/images/hero.png"
                 alt="Electronic weighbridge with truck on platform"
                 className="w-full h-[400px] object-cover"
               />

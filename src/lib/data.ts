@@ -138,17 +138,17 @@ export const galleryItems = [
   {
     title: "Weighbridge Platform",
     description: "Heavy-duty steel platform built for commercial vehicles",
-    image: "/images/platform.png",
+    image: "/weighbridge-site/images/platform.png",
   },
   {
     title: "Truck Weighing",
     description: "Daily operations with loaded commercial trucks",
-    image: "/images/truck.png",
+    image: "/weighbridge-site/images/truck.png",
   },
   {
     title: "Operator Cabin",
     description: "Digital display and receipt printer setup",
-    image: "/images/cabin.png",
+    image: "/weighbridge-site/images/cabin.png",
   },
 ];
 
