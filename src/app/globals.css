@@ -2,14 +2,16 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-navy: #0F172A;
-  --color-charcoal: #111827;
-  --color-accent: #F59E0B;
-  --color-accent-hover: #D97706;
-  --color-light: #F3F4F6;
-  --color-text-gray: #6B7280;
-  --color-whatsapp: #25D366;
-  --color-whatsapp-hover: #1DA851;
+  --color-brand-blue: #2c3359;
+  --color-brand-dark: #1e2442;
+  --color-brand-orange: #ea7c24;
+  --color-brand-orange-hover: #d36b1d;
+  --color-navy: #1e2442;
+  --color-charcoal: #111526;
+  --color-light: #f8fafc;
+  --color-text-gray: #64748b;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-hover: #1da851;
 }
 
 * {

@@ -1,186 +1,179 @@
 import {
   Scale,
-  Clock,
-  MapPin,
-  Receipt,
   Truck,
-  Calculator,
   HardHat,
   Wheat,
   Factory,
-  Users,
+  Pill,
+  ShoppingCart,
+  Package,
+  Utensils,
+  Recycle,
   ShieldCheck,
-  ScanLine,
-  ArrowRightLeft,
-  Handshake,
+  Cpu,
+  Smartphone,
+  Server,
+  Wrench,
+  Activity,
+  ThumbsUp,
+  Settings,
+  Users,
+  Pickaxe
 } from "lucide-react";
 
-export const quickInfoCards = [
+export const products = [
   {
-    icon: Scale,
-    label: "Capacity",
-    value: "100 Ton",
-    description: "Electronic weighbridge",
-  },
-  {
-    icon: Clock,
-    label: "Working Hours",
-    value: "Open 24×7",
-    description: "Day and night service",
-  },
-  {
-    icon: MapPin,
-    label: "Location",
-    value: "Near Highway",
-    description: "Easy truck access",
-  },
-  {
-    icon: Receipt,
-    label: "Slip",
-    value: "Printed Receipt",
-    description: "Weight slip every time",
-  },
-];
-
-export const services = [
-  {
+    title: "Weighbridges",
+    description: "Pit type Weighbridge, Pitless Weighbridge, Semi Pit/ Pitless Weighbridge, Modular/ portable w, w indicator, loadcell, junction box, Parallel/ Extra Display.",
     icon: Truck,
-    title: "Truck Weighing",
-    description:
-      "Accurate weighing for loaded and empty commercial vehicles.",
   },
   {
-    icon: Calculator,
-    title: "Material Weight",
-    description:
-      "Calculate net material weight using gross and tare weight.",
+    title: "Industrial & Commercial Scale",
+    description: "Table Top, Platform Scale, retail counterscale, billing and pos scale, bench scales.",
+    icon: Scale,
   },
   {
-    icon: HardHat,
-    title: "Construction Material",
-    description:
-      "Suitable for sand, stone, gravel, cement and crusher loads.",
+    title: "Lab and Jewellery scale",
+    description: "High-precision balances for formulation, quality control, and retail jewelry.",
+    icon: Activity,
+  },
+];
+
+export const industries = [
+  {
+    title: "Logistics & Transportation",
+    description: "Weighbridges for trucks, fleet management, and freight billing — built for high-volume, daily operations.",
+    icon: Truck,
   },
   {
+    title: "Agriculture & Mandis",
+    description: "Fast, accurate weighing for grain, produce, and commodity trade — designed for high-traffic mandi environments.",
     icon: Wheat,
-    title: "Agriculture Goods",
-    description:
-      "Weigh tractors, goods vehicles and farm produce loads.",
   },
   {
+    title: "Construction & Cement",
+    description: "Heavy-duty weighing for raw materials, aggregates, and bulk cement dispatch.",
+    icon: HardHat,
+  },
+  {
+    title: "Mining & Quarries",
+    description: "Rugged weighbridges built to handle dust, vibration, and continuous heavy loads.",
+    icon: Pickaxe,
+  },
+  {
+    title: "Manufacturing & Steel",
+    description: "Inbound raw material checks and outbound finished goods weighing — integrated with your production line.",
     icon: Factory,
-    title: "Scrap & Industrial",
-    description:
-      "Reliable weighing support for scrap dealers and factories.",
   },
   {
-    icon: Users,
-    title: "Monthly Customers",
-    description:
-      "Regular support for transporters and local businesses.",
-  },
-];
-
-export const processSteps = [
-  {
-    step: 1,
-    title: "Vehicle Arrives",
-    description: "Vehicle arrives at the weighbridge platform",
+    title: "Pharmaceuticals",
+    description: "Precision lab balances for formulation, quality control, and regulatory compliance.",
+    icon: Pill,
   },
   {
-    step: 2,
-    title: "Weight Measured",
-    description: "Loaded or empty weight is measured electronically",
+    title: "Retail & Trade",
+    description: "Legal-for-trade commercial scales for shops, wholesalers, and billing counters.",
+    icon: ShoppingCart,
   },
   {
-    step: 3,
-    title: "Net Weight Calculated",
-    description: "Net material weight is calculated from gross and tare",
+    title: "Warehousing & Logistics Hubs",
+    description: "Platform and floor scales for inventory checks, dispatch, and pallet weighing.",
+    icon: Package,
   },
   {
-    step: 4,
-    title: "Slip Printed",
-    description: "Printed weight slip is given instantly",
+    title: "Food Processing",
+    description: "Hygienic, accurate scales for raw material intake and packaged goods verification.",
+    icon: Utensils,
+  },
+  {
+    title: "Recycling & Scrap",
+    description: "Heavy-capacity weighbridges for scrap metal, waste, and recyclable material trade.",
+    icon: Recycle,
   },
 ];
 
-export const capacityBullets = [
-  "100 Ton electronic weighbridge capacity",
-  "Suitable for trucks, tractors, trailers and dumpers",
-  "Printed weight receipt after every weighing",
-  "Easy entry and exit for heavy vehicles",
-];
-
-export const trustCards = [
+export const softwareFeatures = [
   {
-    icon: ScanLine,
-    title: "Accurate Electronic Weighing",
-    description: "Precision digital load cells for exact readings",
-  },
-  {
+    title: "Security & Anti-Theft",
+    description: "Live CCTV image capture, automatic weight logging, and secure operator logins to prevent tampering and ensure every vehicle is recorded.",
     icon: ShieldCheck,
-    title: "Certified / Calibrated Machine",
-    description: "Regularly calibrated and government certified",
   },
   {
-    icon: ArrowRightLeft,
-    title: "Easy Truck Entry & Exit",
-    description: "Wide ramp with smooth approach road",
+    title: "Unmanned Automation",
+    description: "Integration with RFID card readers, boom barriers, and traffic lights for fast, operator-free weighing operations.",
+    icon: Cpu,
   },
   {
-    icon: Handshake,
-    title: "Trusted by Local Transporters",
-    description: "Serving the local transport community for years",
+    title: "Smart Alerts & Reporting",
+    description: "Automated ticket dispatch via WhatsApp, SMS, and Email, along with customizable daily or monthly Excel export reports.",
+    icon: Smartphone,
+  },
+  {
+    title: "Seamless ERP Integration",
+    description: "Ready-to-connect software architectures that push weighing data directly into SAP, Oracle, and government portals (eNAM, FCI).",
+    icon: Server,
   },
 ];
 
-export const galleryItems = [
+export const technicalServices = [
   {
-    title: "Weighbridge Platform",
-    description: "Heavy-duty steel platform built for commercial vehicles",
-    image: "/weighbridge-site/images/platform.png",
+    title: "Component-Level Hardware Repair",
+    description: "Unlike standard dealers who only replace entire boards, we diagnose and repair faults down to the micro-component and circuit level. We handle motherboards, segment displays, and multi-PCB intelligent terminals in-house.",
+    icon: Settings,
   },
   {
-    title: "Truck Weighing",
-    description: "Daily operations with loaded commercial trucks",
-    image: "/weighbridge-site/images/truck.png",
+    title: "Precision On-Site Calibration",
+    description: "Executing rigorous on-site calibration for all scales and heavy weighbridges to ensure strict accuracy and legal metrology compliance.",
+    icon: Activity,
   },
   {
-    title: "Operator Cabin",
-    description: "Digital display and receipt printer setup",
-    image: "/weighbridge-site/images/cabin.png",
+    title: "Advanced Troubleshooting",
+    description: "Rapid, accurate diagnostics for communication drops, analog and digital load cell errors, and complex junction box balancing (handling up to 8 load cells).",
+    icon: Wrench,
+  },
+  {
+    title: "Comprehensive AMC",
+    description: "Proactive, scheduled maintenance plans designed to identify wear and tear before it causes a breakdown, ensuring near-zero downtime for your business.",
+    icon: ShieldCheck,
   },
 ];
 
-export const faqs = [
+export const coreValues = [
   {
-    question: "What is your weighbridge capacity?",
-    answer:
-      "Our electronic weighbridge has a capacity of 100 Tons, suitable for all types of commercial vehicles including trucks, trailers, tractors and dumpers.",
+    title: "Absolute Precision",
+    description: "We understand that every milligram and every ton translates to your business's bottom line.",
   },
   {
-    question: "Do you provide a printed weight slip?",
-    answer:
-      "Yes, we provide a printed weight receipt after every weighing that includes gross weight, tare weight, net weight, date, time and vehicle number.",
+    title: "Reliability & Trust",
+    description: "Transparent dealings, high-quality products, and a commitment to long-term partnerships.",
   },
   {
-    question: "Can both empty and loaded vehicles be weighed?",
-    answer:
-      "Absolutely. We weigh both loaded and empty vehicles. The net material weight is calculated as the difference between loaded (gross) and empty (tare) weight.",
-  },
-  {
-    question: "Is your weighbridge suitable for trucks and tractors?",
-    answer:
-      "Yes. Our platform is designed for trucks, trailers, tractor-trolleys, dumpers and other heavy commercial vehicles.",
-  },
-  {
-    question: "What are your working hours?",
-    answer:
-      "We are open 24 hours a day, 7 days a week. You can visit anytime for weighing services.",
-  },
-  {
-    question: "Where exactly is your location?",
-    answer:
-      "We are located near the highway for easy truck access. Use the 'Get Direction' button on this page to open the exact location in Google Maps.",
+    title: "Service-First Approach",
+    description: "Selling a scale is just the beginning; our true strength lies in our rapid, expert after-sales support.",
   },
 ];
+
+export const technicalExpertise = [
+  {
+    title: "Manufacturing & R&D DNA",
+    description: "Our team doesn’t just understand how to operate a weighing scale; we understand how it is built. With extensive experience in designing hardware architectures, developing intelligent terminals, and optimizing junction PCBs (up to 8 load cells), we know weighing technology down to the circuit level.",
+  },
+  {
+    title: "Industrial-Grade Troubleshooting",
+    description: "From executing high-stake, on-site calibrations at mega-refineries to troubleshooting complex multi-PCB networks in heavy machinery, we have hands-on experience in solving the toughest technical challenges.",
+  },
+  {
+    title: "Unmatched After-Sales Support",
+    description: "Standard dealers rely on third-party technicians. We bring OEM-level (Original Equipment Manufacturer) service capabilities directly to you. Our background in training service engineers ensures that your equipment faces near-zero downtime.",
+  },
+  {
+    title: "Future-Ready Solutions",
+    description: "We continuously evolve with technology, moving from traditional mechanical/analog systems to advanced digital load cells and modern Android-based intelligent weighing software integrations.",
+  },
+];
+
+export const links = {
+  phone: "+919876543210",
+  whatsapp: "https://wa.me/919876543210",
+  email: "sales@aveerascales.com",
+};

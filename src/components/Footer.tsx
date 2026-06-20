@@ -1,91 +1,81 @@
-import { Scale, Phone, MapPin } from "lucide-react";
-import { siteConfig, links } from "@/lib/config";
-
-const quickLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Capacity", href: "#capacity" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
-];
+import { siteConfig } from "@/lib/config";
+import { Phone, MapPin, Mail } from "lucide-react";
 
 export default function Footer() {
-  const year = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-charcoal border-t border-white/5">
+    <footer className="bg-brand-dark border-t border-white/5">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-12 sm:py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-16">
-          {/* Brand */}
-          <div className="space-y-4">
+          {/* Brand Info */}
+          <div className="space-y-6">
             <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 bg-accent rounded-lg flex items-center justify-center">
-                <Scale className="w-5 h-5 text-navy" strokeWidth={2.5} />
+              <div className="w-10 h-10 bg-brand-blue rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-xl">A</span>
               </div>
-              <div className="leading-tight">
-                <div className="text-white font-bold text-sm">
-                  {siteConfig.businessName}
-                </div>
-                <div className="text-gray-500 text-xs">
-                  {siteConfig.subtitle}
+              <div>
+                <div className="text-white font-bold text-lg tracking-wide">
+                  Aveera <span className="text-brand-blue">Scales</span>
                 </div>
               </div>
             </div>
-            <p className="text-gray-500 text-sm leading-relaxed max-w-xs">
-              Accurate {siteConfig.capacity} electronic weighbridge service with
-              printed weight slips for all types of commercial vehicles and
-              materials.
+            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+              {siteConfig.seo.description}
             </p>
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="text-white font-bold text-sm mb-4">Quick Links</h4>
-            <ul className="space-y-2.5">
-              {quickLinks.map((link) => (
-                <li key={link.href}>
-                  <a
-                    href={link.href}
-                    className="text-gray-500 hover:text-accent text-sm transition-colors"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          <div className="space-y-6">
+            <h4 className="text-white font-bold text-lg">Quick Links</h4>
+            <nav className="flex flex-col gap-3">
+              <a href="#products" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Products
+              </a>
+              <a href="#industries" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Industries
+              </a>
+              <a href="#services" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Software & Services
+              </a>
+              <a href="#about" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> About Us
+              </a>
+            </nav>
           </div>
 
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-white font-bold text-sm mb-4">Contact</h4>
-            <div className="space-y-3">
-              <a
-                href={links.call}
-                className="flex items-center gap-2.5 text-gray-500 hover:text-accent text-sm transition-colors"
-              >
-                <Phone className="w-4 h-4 shrink-0" />
-                {siteConfig.phone}
-              </a>
-              <a
-                href={links.direction}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-2.5 text-gray-500 hover:text-accent text-sm transition-colors"
-              >
-                <MapPin className="w-4 h-4 shrink-0 mt-0.5" />
-                {siteConfig.address}
-              </a>
+          {/* Contact Details */}
+          <div className="space-y-6">
+            <h4 className="text-white font-bold text-lg">Contact Info</h4>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3 text-gray-400 text-sm">
+                <Phone className="w-5 h-5 text-brand-orange shrink-0" />
+                <a href={`tel:+${siteConfig.phoneRaw}`} className="hover:text-white transition-colors">
+                  {siteConfig.phone}
+                </a>
+              </div>
+              <div className="flex items-start gap-3 text-gray-400 text-sm">
+                <Mail className="w-5 h-5 text-brand-orange shrink-0" />
+                <a href={`mailto:${siteConfig.email}`} className="hover:text-white transition-colors">
+                  {siteConfig.email}
+                </a>
+              </div>
+              <div className="flex items-start gap-3 text-gray-400 text-sm">
+                <MapPin className="w-5 h-5 text-brand-orange shrink-0" />
+                <span>{siteConfig.address}</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Copyright */}
-      <div className="border-t border-white/5">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-5">
-          <p className="text-gray-600 text-xs sm:text-sm text-center">
-            © {year} {siteConfig.businessName}. All rights reserved.
+        <div className="mt-12 sm:mt-16 pt-8 border-t border-white/10 text-center flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-gray-500 text-sm">
+            © {currentYear} {siteConfig.businessName}. All rights reserved.
           </p>
+          <div className="flex gap-4">
+            <a href="#" className="text-gray-500 hover:text-white text-sm transition-colors">Privacy Policy</a>
+            <a href="#" className="text-gray-500 hover:text-white text-sm transition-colors">Terms of Service</a>
+          </div>
         </div>
       </div>
     </footer>

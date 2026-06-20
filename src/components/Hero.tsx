@@ -1,101 +1,63 @@
-import { Phone, MessageCircle, MapPin, BadgeCheck, Timer } from "lucide-react";
-import { siteConfig, links } from "@/lib/config";
+import { links } from "@/lib/config";
+import { ArrowRight, MessageCircle } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative bg-navy pt-28 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
-      {/* Subtle gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-navy via-charcoal to-navy" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(245,158,11,0.08)_0%,_transparent_60%)]" />
+    <section id="home" className="relative text-white py-24 sm:py-32 px-4 sm:px-8 overflow-hidden bg-gradient-to-br from-brand-dark to-brand-blue">
+      {/* Dynamic Background Elements */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(20,184,166,0.15)_0%,_transparent_60%)]" />
+      <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('/weighbridge-site/images/grid.svg')] bg-repeat" />
 
-      <div className="relative max-w-[1200px] mx-auto px-4 sm:px-6">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-          {/* Left content */}
-          <div className="space-y-6 sm:space-y-8">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-full px-4 py-1.5">
-              <BadgeCheck className="w-4 h-4 text-accent" />
-              <span className="text-accent text-sm font-medium">
-                Trusted Local Weighing Service
-              </span>
-            </div>
-
-            {/* Headline */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-extrabold text-white leading-tight tracking-tight">
-              Certified Electronic Weighbridge in{" "}
-              <span className="text-accent">{siteConfig.city}</span>
-            </h1>
-
-            {/* Subtext */}
-            <p className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-xl">
-              Accurate truck and material weighing service with printed weight
-              slips for transporters, traders, farmers and construction
-              suppliers.
-            </p>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-3">
-              <a
-                href={links.call}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-accent hover:bg-accent-hover text-navy font-bold text-sm rounded-xl transition-colors shadow-lg shadow-accent/20"
-                aria-label="Call Now"
-              >
-                <Phone className="w-4 h-4" strokeWidth={2.5} />
-                Call Now
-              </a>
-              <a
-                href={links.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-whatsapp hover:bg-whatsapp-hover text-white font-bold text-sm rounded-xl transition-colors shadow-lg shadow-whatsapp/20"
-                aria-label="WhatsApp"
-              >
-                <MessageCircle className="w-4 h-4" strokeWidth={2.5} />
-                WhatsApp
-              </a>
-              <a
-                href={links.direction}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-white hover:bg-white/10 font-bold text-sm rounded-xl transition-colors"
-                aria-label="Get Direction"
-              >
-                <MapPin className="w-4 h-4" strokeWidth={2.5} />
-                Get Direction
-              </a>
-            </div>
+      <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          {/* <span className="text-brand-orange font-semibold tracking-widest uppercase text-xs sm:text-sm mb-6 flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-brand-orange animate-pulse"></span>
+            Premium Weighing Solutions Provider
+          </span> */}
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight">
+            Your Trusted Partner For <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-blue-200">Precision Scales.</span>
+          </h1>
+          <p className="text-base sm:text-lg text-blue-100 mb-8 leading-relaxed max-w-xl font-light">
+            We supply, install, and maintain top-tier weighbridges and industrial scales. Get the best hardware, flawless software integration, and rapid maintenance services—all under one roof.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 bg-brand-orange hover:bg-brand-orange-hover text-white px-8 py-3.5 rounded-lg font-semibold transition shadow-lg shadow-brand-orange/30"
+            >
+              Get a Quote
+              <ArrowRight className="w-4 h-4" />
+            </a>
+            <a
+              href="#products"
+              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white px-8 py-3.5 rounded-lg font-semibold transition backdrop-blur-sm"
+            >
+              View Products
+            </a>
           </div>
+        </div>
 
-          {/* Right content — Hero image card */}
-          <div className="relative hidden lg:block">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/40 border border-white/10">
-              <img
-                src="/weighbridge-site/images/hero.png"
-                alt="Electronic weighbridge with truck on platform"
-                className="w-full h-[400px] object-cover"
-              />
-              {/* Gradient overlay on image */}
-              <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-transparent to-transparent" />
-
-              {/* Live Weight Overlay Card */}
-              <div className="absolute bottom-5 left-5 right-5 bg-navy/90 backdrop-blur-sm border border-white/10 rounded-xl p-4">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <div className="text-text-gray text-xs font-medium uppercase tracking-wider mb-1">
-                      Live Weight Display
-                    </div>
-                    <div className="text-3xl font-extrabold text-accent tracking-tight">
-                      42,680 <span className="text-lg font-bold text-gray-400">KG</span>
-                    </div>
-                    <div className="text-gray-500 text-xs mt-1">
-                      Printed slip generated after weighing
-                    </div>
-                  </div>
-                  <div className="bg-accent/10 border border-accent/20 rounded-lg px-3 py-2 text-center">
-                    <Timer className="w-4 h-4 text-accent mx-auto mb-1" />
-                    <div className="text-accent text-xs font-bold">2–5 Min</div>
-                    <div className="text-gray-500 text-[10px]">Fast Service</div>
-                  </div>
+        {/* Dealer Highlight Image Area */}
+        <div className="relative mt-8 lg:mt-0 hidden md:block">
+          <div className="relative bg-white/5 border border-white/10 rounded-2xl h-80 lg:h-[450px] flex items-center justify-center shadow-2xl overflow-hidden backdrop-blur-md group">
+            {/* We can use the platform placeholder image here */}
+            <img
+              src="/weighbridge-site/images/platform.png"
+              alt="High-Res Scale Installation"
+              className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-brand-dark/40" />
+            
+            <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm text-gray-900 px-5 py-4 rounded-xl shadow-xl">
+              <div className="flex items-start gap-4">
+                <div className="bg-brand-blue/10 p-2.5 rounded-lg text-brand-blue shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check-circle-2 w-6 h-6">
+                    <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-bold text-sm sm:text-base text-charcoal">Authorized Supply & Installation</h4>
+                  <p className="text-xs text-text-gray mt-0.5">OEM-level technical expertise for your business</p>
                 </div>
               </div>
             </div>
