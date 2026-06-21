@@ -23,22 +23,104 @@ import {
 
 export const products = [
   {
-    title: "Weighbridges",
-    description: "Pit type Weighbridge, Pitless Weighbridge, Semi Pit/ Pitless Weighbridge, Modular/ portable w, w indicator, loadcell, junction box, Parallel/ Extra Display.",
+    title: "Pitless Weighbridge",
+    slug: "pitless-weighbridge",
+    description: "Surface-mounted weighbridge ideal for areas with high water tables or rocky terrain.",
     icon: Truck,
     image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80",
+    longDescription: "Our Pitless Weighbridges are designed for surface mounting, eliminating the need for extensive civil foundation work. They are the perfect solution for sites where excavation is difficult, such as rocky terrains or areas with high water tables. Because they are elevated, they offer excellent natural ventilation, easy maintenance access, and no waterlogging issues.",
+    features: [
+      "No civil excavation required, saving time and cost.",
+      "Elevated design prevents water accumulation and rusting.",
+      "Easy access to load cells and junction boxes for maintenance.",
+      "Quick installation and easy to relocate if required.",
+    ],
+    specifications: [
+      { label: "Capacity", value: "10 Ton to 150 Ton" },
+      { label: "Platform Size", value: "7.5m x 3m up to 24m x 3m" },
+      { label: "Structure", value: "Heavy-duty I-Beam / U-Beam steel" },
+      { label: "Platform", value: "Anti-skid chequered steel plate" },
+    ]
   },
   {
-    title: "Industrial & Commercial Scale",
+    title: "Pit Type Weighbridge",
+    slug: "pit-type-weighbridge",
+    description: "Flush-mounted weighbridge saving space and allowing easy vehicle turning.",
+    icon: Truck,
+    image: "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=800&q=80",
+    longDescription: "Pit Type Weighbridges are installed flush with the ground level. This design is highly recommended for locations with space constraints, as vehicles can approach the platform from any direction. The flat surface ensures that the weighbridge does not obstruct the flow of traffic in busy industrial environments.",
+    features: [
+      "Flush with ground level for smooth, multi-directional vehicle access.",
+      "Requires minimal approach ramp space.",
+      "Ideal for congested industrial sites and tight layouts.",
+      "Highly stable and aesthetically seamless with the road.",
+    ],
+    specifications: [
+      { label: "Capacity", value: "10 Ton to 150 Ton" },
+      { label: "Platform Size", value: "7.5m x 3m up to 18m x 3m" },
+      { label: "Structure", value: "Robust steel girders with RCC foundation" },
+      { label: "Clearance", value: "Zero surface obstruction" },
+    ]
+  },
+  {
+    title: "Automatic Unmanned Weighbridge",
+    slug: "automatic-weighbridge",
+    description: "Operator-free weighing integrated with RFID, boom barriers, CCTV, and traffic lights.",
+    icon: Cpu,
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    longDescription: "The Automatic Unmanned Weighbridge system modernizes your logistics by eliminating the need for a manual operator. Vehicles are identified via RFID tags, guided by automated traffic lights, and secured by boom barriers. Live CCTV captures imagery during weight capture, sending data instantly to your ERP systems—preventing theft and ensuring 100% accuracy.",
+    features: [
+      "24/7 operator-free weighing operations.",
+      "Integrated CCTV for live image capturing during weighing.",
+      "RFID card reading for fast vehicle identification.",
+      "Automated Boom Barriers and Traffic Lights for queue management.",
+    ],
+    specifications: [
+      { label: "Integration", value: "SAP, Oracle, Tally, Custom ERP" },
+      { label: "Sensors", value: "Infrared Vehicle Positioning Sensors" },
+      { label: "Security", value: "Anti-theft photo-logging system" },
+      { label: "Operation", value: "Fully unmanned / Semi-manned switchable" },
+    ]
+  },
+  {
+    title: "Industrial & Commercial Scales",
+    slug: "industrial-commercial-scales",
     description: "Table Top, Platform Scale, retail counterscale, billing and pos scale, bench scales.",
     icon: Scale,
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    longDescription: "From heavy-duty floor scales for warehouses to compact bench scales for retail billing, our commercial weighing solutions are engineered for durability and precise measurements. Built with high-quality stainless steel and advanced digital indicators, they ensure your daily trading is accurate and legally compliant.",
+    features: [
+      "High-accuracy digital indicators with bright LED/LCD displays.",
+      "Rugged construction for harsh industrial environments.",
+      "Legal-for-trade approved for commercial billing.",
+      "Battery backup functionality for uninterrupted operation.",
+    ],
+    specifications: [
+      { label: "Capacity Range", value: "10kg up to 5 Ton" },
+      { label: "Material", value: "Mild Steel / Stainless Steel (SS304)" },
+      { label: "Display", value: "Pole-mounted or separate indicator" },
+      { label: "Connectivity", value: "RS-232 / USB for PC and Printer integration" },
+    ]
   },
   {
-    title: "Lab and Jewellery scale",
+    title: "Lab and Jewellery Scales",
+    slug: "lab-jewellery-scales",
     description: "High-precision balances for formulation, quality control, and retail jewelry.",
     icon: Activity,
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80",
+    longDescription: "Our laboratory and jewellery balances deliver milligram-level precision. Whether you are formulating critical pharmaceutical batches or weighing precious metals in a retail showroom, these balances offer draft-shield protection, electromagnetic force compensation, and lightning-fast stabilization times.",
+    features: [
+      "Sub-milligram precision for exact measurements.",
+      "Enclosed glass draft shields to prevent air-current interference.",
+      "Built-in internal calibration mechanisms.",
+      "Unit conversion (grams, carats, ounces, etc.) and piece counting.",
+    ],
+    specifications: [
+      { label: "Readability", value: "0.1mg (0.0001g) to 1mg" },
+      { label: "Capacity", value: "50g to 1000g" },
+      { label: "Technology", value: "Electromagnetic Force Restoration" },
+      { label: "Windshield", value: "3-door sliding glass" },
+    ]
   },
 ];
 

@@ -1,4 +1,5 @@
 import { products } from "@/lib/data";
+import Link from "next/link";
 
 export default function Products() {
   return (
@@ -16,12 +17,13 @@ export default function Products() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
-          {products.map((product, index) => {
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          {products.map((product) => {
             return (
-              <div
-                key={index}
-                className="group bg-white rounded-2xl border border-gray-100 hover:border-brand-blue/30 hover:shadow-2xl hover:shadow-brand-blue/5 transition-all duration-300 overflow-hidden flex flex-col"
+              <Link
+                href={`/products/${product.slug}`}
+                key={product.slug}
+                className="group bg-white rounded-2xl border border-gray-100 hover:border-brand-blue/30 hover:shadow-2xl hover:shadow-brand-blue/5 transition-all duration-300 overflow-hidden flex flex-col block"
               >
                 <div className="relative h-56 overflow-hidden bg-gray-100">
                   <img 
@@ -39,7 +41,7 @@ export default function Products() {
                     {product.description}
                   </p>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>

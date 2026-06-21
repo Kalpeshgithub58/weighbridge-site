@@ -10,20 +10,13 @@ import MobileStickyCTA from "@/components/MobileStickyCTA";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Products />
-        <Industries />
-        <SoftwareAndServices />
-        <AboutUs />
-        <Contact />
-      </main>
-      <Footer />
-      <MobileStickyCTA />
-      {/* Spacer for mobile sticky CTA */}
-      <div className="h-16 lg:hidden" />
-    </>
+    <main>
+      <Hero />
+      <Products />
+      <Industries />
+      <SoftwareAndServices />
+      <AboutUs />
+      <Contact />
+    </main>
   );
 }

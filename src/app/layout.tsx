@@ -29,6 +29,10 @@ export const metadata: Metadata = {
   },
 };
 
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import MobileStickyCTA from "@/components/MobileStickyCTA";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,7 +40,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} antialiased`}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        <Header />
+        {children}
+        <Footer />
+        <MobileStickyCTA />
+        {/* Spacer for mobile sticky CTA */}
+        <div className="h-16 lg:hidden" />
+      </body>
     </html>
   );
 }

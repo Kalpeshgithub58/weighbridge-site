@@ -1,20 +1,22 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Phone, Menu, X } from "lucide-react";
+import { Phone, Menu, X, ChevronDown } from "lucide-react";
 import { siteConfig, links } from "@/lib/config";
+import { products } from "@/lib/data";
+import Link from "next/link";
 
 const navLinks = [
-  { label: "Products", href: "#products" },
-  { label: "Industries", href: "#industries" },
-  { label: "Software & Services", href: "#services" },
-  { label: "About us", href: "#about" },
-  { label: "Contact & Support", href: "#contact" },
+  { label: "Industries", href: "/#industries" },
+  { label: "Software & Services", href: "/#services" },
+  { label: "About us", href: "/#about" },
+  { label: "Contact & Support", href: "/#contact" },
 ];
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [productsOpenMobile, setProductsOpenMobile] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -33,7 +35,7 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 sm:h-[72px]">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2.5 shrink-0">
+          <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <div className="w-10 h-10 bg-brand-blue rounded-lg flex items-center justify-center shadow-md">
               <span className="text-white font-bold text-xl">A</span>
             </div>
@@ -42,22 +44,49 @@ export default function Header() {
                 Aveera <span className="text-brand-blue">Scales</span>
               </div>
             </div>
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
+            {/* Products Dropdown */}
+            <div className="relative group">
+              <Link
+                href="/#products"
+                className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-brand-blue transition-colors rounded-lg hover:bg-brand-blue/5"
+              >
+                Products
+                <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
+              </Link>
+              
+              {/* Dropdown Menu */}
+              <div className="absolute top-full left-0 mt-1 w-64 bg-white border border-gray-100 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 overflow-hidden">
+                <div className="p-2 flex flex-col">
+                  {products.map((product) => (
+                    <Link
+                      key={product.slug}
+                      href={`/products/${product.slug}`}
+                      className="px-4 py-3 text-sm font-medium text-gray-700 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors flex items-center gap-3"
+                    >
+                      <product.icon className="w-5 h-5 text-brand-orange shrink-0" />
+                      {product.title}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-brand-blue transition-colors rounded-lg hover:bg-brand-blue/5"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
 
-          {/* Desktop Contact Info (Replaced CTA) */}
+          {/* Desktop Contact Info */}
           <div className="hidden lg:flex items-center">
             <a
               href={links.call}
@@ -84,16 +113,44 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="lg:hidden pb-4 border-t border-gray-100 mt-1">
             <nav className="flex flex-col gap-1 pt-3">
+              {/* Mobile Products Accordion */}
+              <div className="flex flex-col">
+                <button
+                  onClick={() => setProductsOpenMobile(!productsOpenMobile)}
+                  className="flex items-center justify-between px-3 py-3 text-sm font-medium text-gray-700 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors w-full text-left"
+                >
+                  Products
+                  <ChevronDown className={`w-4 h-4 transition-transform ${productsOpenMobile ? "rotate-180" : ""}`} />
+                </button>
+                
+                {productsOpenMobile && (
+                  <div className="flex flex-col pl-4 border-l-2 border-brand-blue/20 ml-4 mt-1 mb-2">
+                    {products.map((product) => (
+                      <Link
+                        key={product.slug}
+                        href={`/products/${product.slug}`}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="px-3 py-2.5 text-sm font-medium text-gray-600 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors flex items-center gap-2"
+                      >
+                        <product.icon className="w-4 h-4 text-brand-orange shrink-0" />
+                        {product.title}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
                   className="px-3 py-3 text-sm font-medium text-gray-700 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
+              
               <div className="pt-4 mt-2 border-t border-gray-100 flex justify-center">
                 <a
                   href={links.call}
