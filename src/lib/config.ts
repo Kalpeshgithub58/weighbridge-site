@@ -1,8 +1,8 @@
 export const siteConfig = {
   businessName: "Aveera Weighing Scales",
   subtitle: "Precision at Every Scale",
-  phone: "+91 98765 43210",
-  phoneRaw: "919876543210",
+  phone: "+91 97237 94363",
+  phoneRaw: "919723794363",
   address: "Industrial Area, Your City, State",
   city: "Your City",
   capacity: "Up to 200 Ton",

@@ -3,10 +3,17 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative text-white py-24 sm:py-32 px-4 sm:px-8 overflow-hidden bg-gradient-to-br from-brand-dark to-brand-blue">
-      {/* Dynamic Background Elements */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(20,184,166,0.15)_0%,_transparent_60%)]" />
-      <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('/weighbridge-site/images/grid.svg')] bg-repeat" />
+    <section id="home" className="relative text-white py-24 sm:py-32 lg:py-40 px-4 sm:px-8 overflow-hidden">
+      {/* Full Screen Background Image */}
+      <div 
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80')" }}
+      />
+      {/* Dark Overlay for Readability */}
+      <div className="absolute inset-0 z-0 bg-brand-dark/80 bg-gradient-to-r from-brand-dark/95 to-brand-dark/50" />
+      
+      {/* Dynamic Elements (Optional, reduced opacity) */}
+      <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(234,124,36,0.15)_0%,_transparent_60%)] pointer-events-none" />
 
       <div className="max-w-[1200px] mx-auto relative z-10 grid lg:grid-cols-2 gap-12 items-center">
         <div>
@@ -15,7 +22,7 @@ export default function Hero() {
             Premium Weighing Solutions Provider
           </span> */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight">
-            Your Trusted Partner For <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-blue-200">Precision Scales.</span>
+            Your Trusted Partner For <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-blue-200">Precision Scales.</span>
           </h1>
           <p className="text-base sm:text-lg text-blue-100 mb-8 leading-relaxed max-w-xl font-light">
             We supply, install, and maintain top-tier weighbridges and industrial scales. Get the best hardware, flawless software integration, and rapid maintenance services—all under one roof.

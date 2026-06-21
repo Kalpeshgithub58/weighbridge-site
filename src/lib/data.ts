@@ -26,16 +26,19 @@ export const products = [
     title: "Weighbridges",
     description: "Pit type Weighbridge, Pitless Weighbridge, Semi Pit/ Pitless Weighbridge, Modular/ portable w, w indicator, loadcell, junction box, Parallel/ Extra Display.",
     icon: Truck,
+    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Industrial & Commercial Scale",
     description: "Table Top, Platform Scale, retail counterscale, billing and pos scale, bench scales.",
     icon: Scale,
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Lab and Jewellery scale",
     description: "High-precision balances for formulation, quality control, and retail jewelry.",
     icon: Activity,
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
   },
 ];
 
@@ -44,51 +47,61 @@ export const industries = [
     title: "Logistics & Transportation",
     description: "Weighbridges for trucks, fleet management, and freight billing — built for high-volume, daily operations.",
     icon: Truck,
+    image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Agriculture & Mandis",
     description: "Fast, accurate weighing for grain, produce, and commodity trade — designed for high-traffic mandi environments.",
     icon: Wheat,
+    image: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Construction & Cement",
     description: "Heavy-duty weighing for raw materials, aggregates, and bulk cement dispatch.",
     icon: HardHat,
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Mining & Quarries",
     description: "Rugged weighbridges built to handle dust, vibration, and continuous heavy loads.",
     icon: Pickaxe,
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Manufacturing & Steel",
     description: "Inbound raw material checks and outbound finished goods weighing — integrated with your production line.",
     icon: Factory,
+    image: "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Pharmaceuticals",
     description: "Precision lab balances for formulation, quality control, and regulatory compliance.",
     icon: Pill,
+    image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Retail & Trade",
     description: "Legal-for-trade commercial scales for shops, wholesalers, and billing counters.",
     icon: ShoppingCart,
+    image: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Warehousing & Logistics Hubs",
     description: "Platform and floor scales for inventory checks, dispatch, and pallet weighing.",
     icon: Package,
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Food Processing",
     description: "Hygienic, accurate scales for raw material intake and packaged goods verification.",
     icon: Utensils,
+    image: "https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?auto=format&fit=crop&w=800&q=80",
   },
   {
     title: "Recycling & Scrap",
     description: "Heavy-capacity weighbridges for scrap metal, waste, and recyclable material trade.",
     icon: Recycle,
+    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80",
   },
 ];
 
