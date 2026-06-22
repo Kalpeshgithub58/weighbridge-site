@@ -6,9 +6,20 @@ import { siteConfig, links } from "@/lib/config";
 import { products } from "@/lib/data";
 import Link from "next/link";
 
+// Group products by category
+const groupedProducts = products.reduce((acc, product) => {
+  const category = product.category || "Other";
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push(product);
+  return acc;
+}, {} as Record<string, typeof products>);
+
 const navLinks = [
   { label: "Industries", href: "/#industries" },
-  { label: "Software & Services", href: "/#services" },
+  { label: "Software & Services", href: "/services" },
+  { label: "Technical Updates", href: "/updates" },
   { label: "About us", href: "/#about" },
   { label: "Contact & Support", href: "/#contact" },
 ];
@@ -59,17 +70,24 @@ export default function Header() {
               </Link>
               
               {/* Dropdown Menu */}
-              <div className="absolute top-full left-0 mt-1 w-64 bg-white border border-gray-100 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 overflow-hidden">
-                <div className="p-2 flex flex-col">
-                  {products.map((product) => (
-                    <Link
-                      key={product.slug}
-                      href={`/products/${product.slug}`}
-                      className="px-4 py-3 text-sm font-medium text-gray-700 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors flex items-center gap-3"
-                    >
-                      <product.icon className="w-5 h-5 text-brand-orange shrink-0" />
-                      {product.title}
-                    </Link>
+              <div className="absolute top-full left-0 mt-1 w-80 bg-white border border-gray-100 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 overflow-hidden max-h-[80vh] overflow-y-auto">
+                <div className="p-3 flex flex-col gap-4">
+                  {Object.entries(groupedProducts).map(([category, items]) => (
+                    <div key={category} className="flex flex-col">
+                      <h4 className="px-3 py-1 text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">
+                        {category}
+                      </h4>
+                      {items.map((product) => (
+                        <Link
+                          key={product.slug}
+                          href={`/products/${product.slug}`}
+                          className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors flex items-center gap-3"
+                        >
+                          <product.icon className="w-4 h-4 text-brand-orange shrink-0" />
+                          {product.title}
+                        </Link>
+                      ))}
+                    </div>
                   ))}
                 </div>
               </div>
@@ -124,17 +142,24 @@ export default function Header() {
                 </button>
                 
                 {productsOpenMobile && (
-                  <div className="flex flex-col pl-4 border-l-2 border-brand-blue/20 ml-4 mt-1 mb-2">
-                    {products.map((product) => (
-                      <Link
-                        key={product.slug}
-                        href={`/products/${product.slug}`}
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="px-3 py-2.5 text-sm font-medium text-gray-600 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors flex items-center gap-2"
-                      >
-                        <product.icon className="w-4 h-4 text-brand-orange shrink-0" />
-                        {product.title}
-                      </Link>
+                  <div className="flex flex-col pl-4 border-l-2 border-brand-blue/20 ml-4 mt-1 mb-2 gap-3">
+                    {Object.entries(groupedProducts).map(([category, items]) => (
+                      <div key={category} className="flex flex-col">
+                        <h4 className="px-3 py-1 text-[11px] font-bold text-gray-400 uppercase tracking-wider">
+                          {category}
+                        </h4>
+                        {items.map((product) => (
+                          <Link
+                            key={product.slug}
+                            href={`/products/${product.slug}`}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-brand-blue hover:bg-brand-blue/5 rounded-lg transition-colors flex items-center gap-2"
+                          >
+                            <product.icon className="w-3.5 h-3.5 text-brand-orange shrink-0" />
+                            {product.title}
+                          </Link>
+                        ))}
+                      </div>
                     ))}
                   </div>
                 )}

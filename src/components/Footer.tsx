@@ -35,8 +35,11 @@ export default function Footer() {
               <a href="#industries" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Industries
               </a>
-              <a href="#services" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+              <a href="/services" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Software & Services
+              </a>
+              <a href="/updates" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Technical Updates
               </a>
               <a href="#about" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> About Us
