@@ -122,8 +122,8 @@ export default function PitTypeWeighbridgePage() {
                       <table className="w-full text-left border-collapse">
                           <thead>
                               <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
-                                  <th className="p-4 text-center rounded-tl-xl">Model Reference</th>
-                                  <th className="p-4 text-center">Max Capacity</th>
+                                  
+                                  <th className="p-4 text-center rounded-tl-xl">Max Capacity</th>
                                   <th className="p-4 text-center">Graduation / Resolution</th>
                                   <th className="p-4">Standard Platform Sizes (L x W)</th>
                                   <th className="p-4 text-center rounded-tr-xl">Load Cells Required</th>
@@ -131,63 +131,63 @@ export default function PitTypeWeighbridgePage() {
                           </thead>
                           <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-5</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">5 Ton (5,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">1 kg</td>
                                   <td className="p-4 font-normal text-slate-600">3.0m x 2.0m &nbsp;|&nbsp; 4.25m x 2.15m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-10</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">10 Ton (10,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">1 / 2 kg</td>
                                   <td className="p-4 font-normal text-slate-600">4.25m x 2.15m &nbsp;|&nbsp; 5.0m x 2.5m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-20</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">20 Ton (20,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">2 kg</td>
-                                  <td className="p-4 font-normal text-slate-600">5.0m x 2.5m &nbsp;|&nbsp; 5.5m x 2.5m &nbsp;|&nbsp; 6.0m x 2.5m</td>
+                                  <td className="p-4 font-normal text-slate-600">6.0m x 2.5m &nbsp;|&nbsp; 7.0m x 3.0m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-30</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">30 Ton (30,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">5 kg</td>
                                   <td className="p-4 font-normal text-slate-600">6.75m x 3.0m &nbsp;|&nbsp; 7.5m x 3.0m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-40</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">40 Ton (40,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">5 kg</td>
                                   <td className="p-4 font-normal text-slate-600">7.5m x 3.0m &nbsp;|&nbsp; 9.0m x 3.0m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-50</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">50 Ton (50,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">5 kg</td>
                                   <td className="p-4 font-normal text-slate-600">7.5m x 3.0m &nbsp;|&nbsp; 9.0m x 3.0m &nbsp;|&nbsp; 12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 / 6 / 8 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-60</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">60 Ton (60,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">10 kg</td>
                                   <td className="p-4 font-normal text-slate-600">7.5m x 3.0m &nbsp;|&nbsp; 9.0m x 3.0m &nbsp;|&nbsp; 12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m &nbsp;|&nbsp; 16.0m x 3.0m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 / 6 / 8 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-80</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">80 Ton (80,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">10 kg</td>
                                   <td className="p-4 font-normal text-slate-600">9.0m x 3.0m &nbsp;|&nbsp; 12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m &nbsp;|&nbsp; 16.0m x 3.0m &nbsp;|&nbsp; 18.0m x 3.0m</td>
                                   <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">6 / 8 / 10 Nos.</td>
                               </tr>
                               <tr className="hover:bg-slate-50/80 transition-colors">
-                                  <td className="p-4 text-center font-bold text-slate-900">MWB-100</td>
+                                  
                                   <td className="p-4 text-center text-amber-600 font-semibold">100 Ton (100,000 kg)</td>
                                   <td className="p-4 text-center text-slate-500">10 kg</td>
                                   <td className="p-4 font-normal text-slate-600">12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m &nbsp;|&nbsp; 16.0m x 3.0m &nbsp;|&nbsp; 18.0m x 3.0m &nbsp;|&nbsp; 20.0m x 3.0m</td>

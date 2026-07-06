@@ -12,7 +12,7 @@ export default function JewelleryWeighingScalesPage() {
           <ChevronRight className="w-4 h-4" />
           <Link href="/#products" className="hover:text-amber-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4" />
-          <span className="text-slate-900">Jewellery Weighing Scales</span>
+          <span className="text-slate-900">Lab and Jewellery Scales</span>
         </div>
       </div>
 

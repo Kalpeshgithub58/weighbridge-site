@@ -56,13 +56,13 @@ export const products = [
     specifications: []
   },
   {
-    title: 'Hopper Silo Weighing System',
-    slug: 'hopper-silo-weighing-system',
+    title: 'Table Top Weighing Scales',
+    slug: 'table-top-weighing-scales',
     category: 'Industrial Scales',
-    description: 'Real-Time Inventory & Batching Automation for seamless raw material processing.',
-    icon: Factory,
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Transform any static hopper, tank, or silo into a high-precision digital scale.',
+    description: 'Precision Commercial Table Top Scales | Rapid Retail & Industrial Weighing.',
+    icon: ShoppingCart,
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Optimize your retail billing counters and light-industrial packaging lines with our ultra-fast Table Top weighing scales.',
     features: [],
     specifications: []
   },
@@ -78,19 +78,19 @@ export const products = [
     specifications: []
   },
   {
-    title: 'Table Top Weighing Scales',
-    slug: 'table-top-weighing-scales',
+    title: 'Hopper Silo Weighing System',
+    slug: 'hopper-silo-weighing-system',
     category: 'Industrial Scales',
-    description: 'Precision Commercial Table Top Scales | Rapid Retail & Industrial Weighing.',
-    icon: ShoppingCart,
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Optimize your retail billing counters and light-industrial packaging lines with our ultra-fast Table Top weighing scales.',
+    description: 'Real-Time Inventory & Batching Automation for seamless raw material processing.',
+    icon: Factory,
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Transform any static hopper, tank, or silo into a high-precision digital scale.',
     features: [],
     specifications: []
   },
   {
-    title: 'Jewellery Weighing Scales',
-    slug: 'jewellery-weighing-scales',
+    title: 'Lab and Jewellery Scales',
+    slug: 'lab-and-jewellery-scales',
     category: 'Lab Scales',
     description: 'High-Precision Jewellery Balances | Milligram-Accurate Gold & Diamond Scales.',
     icon: Activity,
