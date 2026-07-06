@@ -21,10 +21,10 @@ export default function Products() {
             <span className="text-brand-orange text-sm font-semibold tracking-wide uppercase">What We Supply & Install</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-charcoal tracking-tight">
-            Precision at Every Scale
+            Perfect Accuracy at Every Scale
           </h2>
           <p className="text-text-gray mt-5 text-base sm:text-lg leading-relaxed">
-            Premium hardware matched with expert integration. Choose the right system for your Industrial, Commercial and Lab scale needs.
+            Strong machines matched with easy software. Choose the right scale for your factory, shop, or lab.
           </p>
         </div>
 

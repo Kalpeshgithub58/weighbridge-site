@@ -14,10 +14,10 @@ export default function SoftwareAndServices() {
             <span className="text-blue-300 text-sm font-semibold tracking-wide uppercase">Software & Technical Services</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-6">
-            Bridging Heavy-Duty Hardware with Smart Digital Management
+            Connecting Heavy Machines with Smart Software
           </h2>
           <p className="text-blue-100/80 text-base sm:text-lg leading-relaxed">
-            We supply industry-leading software to automate your weighing data and provide the hardcore technical maintenance required to keep your operations running without interruption.
+            We give you the best software to save your weight data automatically, and provide strong repair service to keep your work running without stops.
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export default function SoftwareAndServices() {
               <div className="w-12 h-12 bg-brand-blue rounded-xl flex items-center justify-center shadow-lg shadow-brand-blue/20">
                 <MonitorPlay className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-2xl font-bold">Smart Weighbridge Automation</h3>
+              <h3 className="text-2xl font-bold">Smart Auto Weighing</h3>
             </div>
             <div className="space-y-6">
               {softwareFeatures.map((feature, index) => {
@@ -54,7 +54,7 @@ export default function SoftwareAndServices() {
               <div className="w-12 h-12 bg-brand-orange rounded-xl flex items-center justify-center shadow-lg shadow-brand-orange/20">
                 <Settings2 className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-2xl font-bold">Expert Technical Maintenance</h3>
+              <h3 className="text-2xl font-bold">Expert Repair Service</h3>
             </div>
             <div className="space-y-6">
               {technicalServices.map((service, index) => {

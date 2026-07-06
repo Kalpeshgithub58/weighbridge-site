@@ -22,10 +22,10 @@ export default function Hero() {
             Premium Weighing Solutions Provider
           </span> */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight tracking-tight">
-            Your Trusted Partner For <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-blue-200">Precision Scales.</span>
+            Your Trusted Partner For <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-blue-200">Weighing Scales.</span>
           </h1>
           <p className="text-base sm:text-lg text-blue-100 mb-8 leading-relaxed max-w-xl font-light">
-            We supply, install, and maintain top-tier weighbridges and industrial scales. Get the best hardware, flawless software integration, and rapid maintenance services—all under one roof.
+            We supply, install, and repair all types of weighbridges and industrial scales. Get strong machines, easy software, and fast service—all in one place.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
@@ -63,8 +63,8 @@ export default function Hero() {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-sm sm:text-base text-charcoal">Authorized Supply & Installation</h4>
-                  <p className="text-xs text-text-gray mt-0.5">OEM-level technical expertise for your business</p>
+                  <h4 className="font-bold text-sm sm:text-base text-charcoal">Direct Supply & Installation</h4>
+                  <p className="text-xs text-text-gray mt-0.5">Best company-level service for your business</p>
                 </div>
               </div>
             </div>

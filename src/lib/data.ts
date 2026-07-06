@@ -23,46 +23,13 @@ import {
 
 export const products = [
   {
-    title: 'Pitless Weighbridge',
-    slug: 'pitless-weighbridge',
-    category: 'Heavy Weighbridges',
-    description: 'Surface-mounted weighbridge ideal for areas with high water tables or rocky terrain.',
-    icon: Truck,
-    image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Our Pitless Weighbridges are designed for surface mounting, eliminating the need for extensive civil foundation work...',
-    features: ['No civil excavation required'],
-    specifications: []
-  },
-  {
-    title: 'Pit Type Weighbridge',
-    slug: 'pit-type-weighbridge',
-    category: 'Heavy Weighbridges',
-    description: 'Flush-mounted weighbridge saving space and allowing easy vehicle turning.',
-    icon: Truck,
-    image: 'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Pit Type Weighbridges are installed flush with the ground level...',
-    features: [],
-    specifications: []
-  },
-  {
-    title: 'Modular Weigh Bridge',
-    slug: 'modular-weigh-bridge',
-    category: 'Heavy Weighbridges',
-    description: 'High-Performance Modular Weighbridge | Bolt-On Sectional Scales for easy global transport.',
-    icon: Truck,
-    image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Streamline global transport and lightning-fast deployment with our precision bolt-on Modular weighing decks.',
-    features: [],
-    specifications: []
-  },
-  {
     title: 'Table Top Weighing Scales',
     slug: 'table-top-weighing-scales',
     category: 'Industrial Scales',
-    description: 'Precision Commercial Table Top Scales | Rapid Retail & Industrial Weighing.',
+    description: 'Accurate Table Top Scales | Fast Weighing for Shops and Industries.',
     icon: ShoppingCart,
     image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Optimize your retail billing counters and light-industrial packaging lines with our ultra-fast Table Top weighing scales.',
+    longDescription: 'Speed up your shop billing and light packing work with our very fast and accurate Table Top weighing scales.',
     features: [],
     specifications: []
   },
@@ -70,10 +37,10 @@ export const products = [
     title: 'Platform Weighing Scales',
     slug: 'platform-weighing-scales',
     category: 'Industrial Scales',
-    description: 'Heavy-Duty Industrial Platform Scales | High-Impact Floor Weighing for harsh environments.',
+    description: 'Strong Industrial Platform Scales | Made for Rough Factory Use.',
     icon: Package,
     image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Engineered specifically for unforgiving industrial environments, our high-impact platform scales provide unshakeable accuracy under heavy forklift loading, pallet-jack drops, and extreme warehouse temperatures.',
+    longDescription: 'Made especially for tough factory conditions, our platform scales give perfect accuracy even with heavy loading and rough handling.',
     features: [],
     specifications: []
   },
@@ -81,10 +48,43 @@ export const products = [
     title: 'Hopper Silo Weighing System',
     slug: 'hopper-silo-weighing-system',
     category: 'Industrial Scales',
-    description: 'Real-Time Inventory & Batching Automation for seamless raw material processing.',
+    description: 'Live Inventory & Mixing Automation for raw materials.',
     icon: Factory,
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Transform any static hopper, tank, or silo into a high-precision digital scale.',
+    longDescription: 'Turn any simple hopper, tank, or silo into a highly accurate digital scale for easy mixing and stock checking.',
+    features: [],
+    specifications: []
+  },
+  {
+    title: 'Pitless Weighbridge',
+    slug: 'pitless-weighbridge',
+    category: 'Heavy Weighbridges',
+    description: 'Above-ground weighbridge. Best for areas with high water levels or hard rocky ground.',
+    icon: Truck,
+    image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Our Pitless Weighbridges are fitted above the ground, which means you do not need to dig a deep pit. Very easy to clean and maintain.',
+    features: ['No deep digging required'],
+    specifications: []
+  },
+  {
+    title: 'Pit Type Weighbridge',
+    slug: 'pit-type-weighbridge',
+    category: 'Heavy Weighbridges',
+    description: 'Ground-level weighbridge that saves space and allows easy truck turning.',
+    icon: Truck,
+    image: 'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Pit Type Weighbridges are installed exactly at ground level. This is perfect if you have less space, as vehicles can easily drive over it from any side.',
+    features: [],
+    specifications: []
+  },
+  {
+    title: 'Modular Weigh Bridge',
+    slug: 'modular-weigh-bridge',
+    category: 'Heavy Weighbridges',
+    description: 'Strong Modular Weighbridge | Bolt-On sections for easy transport and fitting.',
+    icon: Truck,
+    image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Make transport and installation very fast with our strong bolt-on Modular weighing systems.',
     features: [],
     specifications: []
   },
@@ -92,10 +92,10 @@ export const products = [
     title: 'Lab and Jewellery Scales',
     slug: 'lab-and-jewellery-scales',
     category: 'Lab Scales',
-    description: 'High-Precision Jewellery Balances | Milligram-Accurate Gold & Diamond Scales.',
+    description: 'Highly Accurate Jewellery Balances | Perfect for Gold & Diamonds.',
     icon: Activity,
     image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Our laboratory and jewellery balances deliver milligram-level precision.',
+    longDescription: 'Our laboratory and jewellery scales give perfect accuracy down to the milligram for highly valuable items.',
     features: [],
     specifications: []
   },
@@ -103,10 +103,10 @@ export const products = [
     title: 'Compression Load Cell',
     slug: 'compression-load-cell',
     category: 'Load Cells',
-    description: 'High-Capacity Compression Load Cells | Heavy-Duty Silo & Weighbridge Sensors.',
+    description: 'Heavy-Duty Compression Load Cells | Strong Sensors for Silos & Weighbridges.',
     icon: Wrench,
     image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Engineered for the most brutal industrial weighing applications, our canister/column type Compression Load Cells are the absolute gold standard for heavy-capacity weighbridges, massive bulk silos, and extreme-load testing machinery.',
+    longDescription: 'Made for the toughest industrial work, our Compression Load Cells are the best choice for heavy weighbridges and huge storage silos.',
     features: [],
     specifications: []
   },
@@ -114,10 +114,10 @@ export const products = [
     title: 'Double Ended Load Cell',
     slug: 'double-ended-load-cell',
     category: 'Load Cells',
-    description: 'Precision Double Ended Shear Beam Load Cells | Mid-to-Heavy Capacity Sensors.',
+    description: 'Accurate Double Ended Shear Beam Load Cells | For Medium and Heavy use.',
     icon: Settings,
     image: 'https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Engineered for high-stability multi-point weighing architectures. The Double Ended Shear Beam load cell is universally recognized as the workhorse of mid-to-heavy capacity industrial scales, offering superior resistance against side-loading and thermal expansion.',
+    longDescription: 'The Double Ended Shear Beam load cell is the most trusted sensor for heavy industrial scales because it handles side-shocks very well.',
     features: [],
     specifications: []
   },
@@ -125,10 +125,10 @@ export const products = [
     title: 'Weigh Bridge CCTV Software',
     slug: 'weigh-bridge-cctv-software',
     category: 'Software',
-    description: 'Intelligent CCTV & Boom Barrier Software | Automated Security & Anti-Theft Management.',
+    description: 'Smart CCTV & Boom Barrier Software | Stops Theft and Saves Time.',
     icon: ShieldCheck,
     image: 'https://images.unsplash.com/photo-1555861496-0666c8981751?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Transform your weighing operations into a fully secure, fraud-proof digital checkpoint. Our intelligent Weighbridge Management Software synchronizes live weight data with IP cameras, boom barriers, and ERP systems to completely eliminate operator manipulation and cargo theft.',
+    longDescription: 'Make your weighing fully secure and fraud-proof. Our smart software connects the live weight with cameras and boom barriers to stop all cheating and theft.',
     features: [],
     specifications: []
   }
@@ -136,62 +136,62 @@ export const products = [
 
 export const industries = [
   {
-    title: "Logistics & Transportation",
-    description: "Weighbridges for trucks, fleet management, and freight billing — built for high-volume, daily operations.",
+    title: "Logistics & Transport",
+    description: "Weighbridges for trucks and heavy transport — built for daily rough use.",
     icon: Truck,
     image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Agriculture & Mandis",
-    description: "Fast, accurate weighing for grain, produce, and commodity trade — designed for high-traffic mandi environments.",
+    title: "Farming & Mandis",
+    description: "Fast and exact weighing for grains and crops — perfect for busy APMC mandis.",
     icon: Wheat,
     image: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Construction & Cement",
-    description: "Heavy-duty weighing for raw materials, aggregates, and bulk cement dispatch.",
+    title: "Building & Cement",
+    description: "Strong weighing systems for raw materials, stones, and cement loading.",
     icon: HardHat,
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Mining & Quarries",
-    description: "Rugged weighbridges built to handle dust, vibration, and continuous heavy loads.",
+    title: "Mining & Stone Crushers",
+    description: "Heavy-duty weighbridges made to easily handle dust, shocks, and non-stop work.",
     icon: Pickaxe,
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Manufacturing & Steel",
-    description: "Inbound raw material checks and outbound finished goods weighing — integrated with your production line.",
+    title: "Factories & Steel",
+    description: "Check your incoming raw materials and outgoing products right at your factory gate.",
     icon: Factory,
     image: "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Pharmaceuticals",
-    description: "Precision lab balances for formulation, quality control, and regulatory compliance.",
+    title: "Medicines & Labs",
+    description: "Very highly accurate lab scales for checking chemical and medicine weights.",
     icon: Pill,
     image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Retail & Trade",
-    description: "Legal-for-trade commercial scales for shops, wholesalers, and billing counters.",
+    title: "Shops & Trading",
+    description: "Govt-approved commercial scales for shops, wholesale markets, and billing counters.",
     icon: ShoppingCart,
     image: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Warehousing & Logistics Hubs",
-    description: "Platform and floor scales for inventory checks, dispatch, and pallet weighing.",
+    title: "Godowns & Warehouses",
+    description: "Platform scales for checking goods, dispatch, and pallet weighing.",
     icon: Package,
     image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Food Processing",
-    description: "Hygienic, accurate scales for raw material intake and packaged goods verification.",
+    title: "Food Packing",
+    description: "Clean and exact scales for food items and packaged goods checking.",
     icon: Utensils,
     image: "https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "Recycling & Scrap",
-    description: "Heavy-capacity weighbridges for scrap metal, waste, and recyclable material trade.",
+    title: "Scrap & Waste",
+    description: "Heavy weighbridges for scrap metal, plastic waste, and recycling trades.",
     icon: Recycle,
     image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80",
   },
@@ -199,81 +199,81 @@ export const industries = [
 
 export const softwareFeatures = [
   {
-    title: "Security & Anti-Theft",
-    description: "Live CCTV image capture, automatic weight logging, and secure operator logins to prevent tampering and ensure every vehicle is recorded.",
+    title: "Security & Stops Theft",
+    description: "Live camera photos, auto weight saving, and safe logins to make sure no one can cheat or change the weights.",
     icon: ShieldCheck,
   },
   {
-    title: "Unmanned Automation",
-    description: "Integration with RFID card readers, boom barriers, and traffic lights for fast, operator-free weighing operations.",
+    title: "Auto Weighing",
+    description: "Connects with smart cards, boom barriers, and lights so trucks can weigh themselves without a man sitting there.",
     icon: Cpu,
   },
   {
-    title: "Smart Alerts & Reporting",
-    description: "Automated ticket dispatch via WhatsApp, SMS, and Email, along with customizable daily or monthly Excel export reports.",
+    title: "SMS & WhatsApp Alerts",
+    description: "Automatically sends weight slips via WhatsApp, SMS, and Email, plus gives you daily Excel reports.",
     icon: Smartphone,
   },
   {
-    title: "Seamless ERP Integration",
-    description: "Ready-to-connect software architectures that push weighing data directly into SAP, Oracle, and government portals (eNAM, FCI).",
+    title: "Easy Software Linking",
+    description: "Our software easily sends weight data directly to your company software like SAP, Tally, or Govt portals.",
     icon: Server,
   },
 ];
 
 export const technicalServices = [
   {
-    title: "Component-Level Hardware Repair",
-    description: "Unlike standard dealers who only replace entire boards, we diagnose and repair faults down to the micro-component and circuit level. We handle motherboards, segment displays, and multi-PCB intelligent terminals in-house.",
+    title: "Deep Hardware Repair",
+    description: "Unlike others who only change whole boards, we find and fix the exact small parts on the circuit board. We repair motherboards and displays in-house.",
     icon: Settings,
   },
   {
-    title: "Precision On-Site Calibration",
-    description: "Executing rigorous on-site calibration for all scales and heavy weighbridges to ensure strict accuracy and legal metrology compliance.",
+    title: "Perfect On-Site Checking",
+    description: "We do exact checking and stamping (calibration) for all scales and big weighbridges at your site to follow all Govt rules.",
     icon: Activity,
   },
   {
-    title: "Advanced Troubleshooting",
-    description: "Rapid, accurate diagnostics for communication drops, analog and digital load cell errors, and complex junction box balancing (handling up to 8 load cells).",
+    title: "Fast Problem Solving",
+    description: "Quick and correct checking for wire cuts, load cell errors, and complex junction box problems.",
     icon: Wrench,
   },
   {
-    title: "Comprehensive AMC",
-    description: "Proactive, scheduled maintenance plans designed to identify wear and tear before it causes a breakdown, ensuring near-zero downtime for your business.",
+    title: "Yearly Service (AMC)",
+    description: "Regular checking and maintenance plans to fix small problems before they become big, saving your time and money.",
     icon: ShieldCheck,
   },
 ];
 
 export const coreValues = [
   {
-    title: "Absolute Precision",
-    description: "We understand that every milligram and every ton translates to your business's bottom line.",
+    title: "Perfect Accuracy",
+    description: "We know that every gram and every ton means money for your business.",
   },
   {
-    title: "Reliability & Trust",
-    description: "Transparent dealings, high-quality products, and a commitment to long-term partnerships.",
+    title: "Trust & Honesty",
+    description: "Clear deals, long-lasting products, and a promise to support you for years.",
   },
   {
-    title: "Service-First Approach",
-    description: "Selling a scale is just the beginning; our true strength lies in our rapid, expert after-sales support.",
+    title: "Service Comes First",
+    description: "Selling a scale is just the start; our real power is in our fast and expert after-sales service.",
   },
 ];
 
 export const technicalExpertise = [
   {
-    title: "Manufacturing & R&D DNA",
-    description: "Our team doesn’t just understand how to operate a weighing scale; we understand how it is built. With extensive experience in designing hardware architectures, developing intelligent terminals, and optimizing junction PCBs (up to 8 load cells), we know weighing technology down to the circuit level.",
+    title: "Strong Technical Knowledge",
+    description: "We don't just sell scales; we know exactly how they are made. With deep experience in repairing boards and load cells, we solve problems fast.",
   },
   {
-    title: "Industrial-Grade Troubleshooting",
-    description: "From executing high-stake, on-site calibrations at mega-refineries to troubleshooting complex multi-PCB networks in heavy machinery, we have hands-on experience in solving the toughest technical challenges.",
+    title: "Heavy Industry Experience",
+    description: "From doing big calibrations at factories to fixing tough wire problems in heavy machines, we have real experience solving the hardest issues.",
   },
   {
-    title: "Unmatched After-Sales Support",
-    description: "Standard dealers rely on third-party technicians. We bring OEM-level (Original Equipment Manufacturer) service capabilities directly to you. Our background in training service engineers ensures that your equipment faces near-zero downtime.",
+    title: "Best After-Sales Support",
+    description: "Normal dealers rely on outside mechanics. We bring direct company-level service to you, making sure your machine never stops working.",
   },
   {
-    title: "Future-Ready Solutions",
-    description: "We continuously evolve with technology, moving from traditional mechanical/analog systems to advanced digital load cells and modern Android-based intelligent weighing software integrations.",
+    title: "Modern Tech Ready",
+    description: "We always use the newest technology, moving from old systems to new digital load cells and smart mobile software.",
   },
 ];
 

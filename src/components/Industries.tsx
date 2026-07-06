@@ -9,10 +9,10 @@ export default function Industries() {
             <span className="text-brand-blue text-sm font-semibold tracking-wide uppercase">Industries We Serve</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-charcoal tracking-tight">
-            Built for Heavy-Duty Environments
+            Made for Heavy Daily Use
           </h2>
           <p className="text-text-gray mt-5 text-base sm:text-lg leading-relaxed">
-            From dusty quarries to hygienic pharma labs, our weighing systems are engineered to perform flawlessly across every sector.
+            From dusty stone crushers to clean medicine labs, our weighing machines work perfectly everywhere.
           </p>
         </div>
 

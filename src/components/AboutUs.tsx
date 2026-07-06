@@ -12,11 +12,11 @@ export default function AboutUs() {
               <span className="text-brand-orange text-sm font-semibold tracking-wide uppercase">About Aveera Scales</span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-charcoal tracking-tight mb-6 leading-tight">
-              Precision at Every Scale. <br className="hidden sm:block" />
+              Perfect Accuracy at Every Scale. <br className="hidden sm:block" />
               <span className="text-brand-blue">From Milligrams to Tons.</span>
             </h2>
             <p className="text-text-gray text-base sm:text-lg leading-relaxed mb-8">
-              Founded by a team of passionate technical experts, Aveera Weighing Scales is not just a dealership—it is a complete technical support system for your weighing needs. We bring top-tier products and unparalleled technical service under one roof.
+              Started by a team of true technical experts, Aveera Weighing Scales is not just a shop—it is a complete support system for your weighing needs. We give you the best machines and direct company-level service all in one place.
             </p>
             
             <div className="space-y-6 mb-10">
@@ -42,7 +42,7 @@ export default function AboutUs() {
             <div className="absolute inset-0 bg-brand-blue/5 rounded-[2rem] transform translate-x-4 translate-y-4" />
             <div className="relative bg-white rounded-[2rem] border border-gray-100 shadow-xl p-8 sm:p-10">
               <h3 className="text-2xl font-bold text-charcoal mb-8 border-b border-gray-100 pb-4">
-                Our Technical Expertise
+                Why Choose Us
               </h3>
               <div className="space-y-6">
                 {technicalExpertise.map((expertise, index) => (
