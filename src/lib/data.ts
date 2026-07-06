@@ -22,40 +22,7 @@ import {
 } from "lucide-react";
 
 export const products = [
-  {
-    title: 'Table Top Weighing Scales',
-    slug: 'table-top-weighing-scales',
-    category: 'Industrial Scales',
-    description: 'Accurate Table Top Scales | Fast Weighing for Shops and Industries.',
-    icon: ShoppingCart,
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Speed up your shop billing and light packing work with our very fast and accurate Table Top weighing scales.',
-    features: [],
-    specifications: []
-  },
-  {
-    title: 'Platform Weighing Scales',
-    slug: 'platform-weighing-scales',
-    category: 'Industrial Scales',
-    description: 'Strong Industrial Platform Scales | Made for Rough Factory Use.',
-    icon: Package,
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Made especially for tough factory conditions, our platform scales give perfect accuracy even with heavy loading and rough handling.',
-    features: [],
-    specifications: []
-  },
-  {
-    title: 'Hopper Silo Weighing System',
-    slug: 'hopper-silo-weighing-system',
-    category: 'Industrial Scales',
-    description: 'Live Inventory & Mixing Automation for raw materials.',
-    icon: Factory,
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
-    longDescription: 'Turn any simple hopper, tank, or silo into a highly accurate digital scale for easy mixing and stock checking.',
-    features: [],
-    specifications: []
-  },
-  {
+   {
     title: 'Pitless Weighbridge',
     slug: 'pitless-weighbridge',
     category: 'Heavy Weighbridges',
@@ -85,6 +52,39 @@ export const products = [
     icon: Truck,
     image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80',
     longDescription: 'Make transport and installation very fast with our strong bolt-on Modular weighing systems.',
+    features: [],
+    specifications: []
+  },
+  {
+    title: 'Table Top Weighing Scales',
+    slug: 'table-top-weighing-scales',
+    category: 'Commercial/Industrial Scales',
+    description: 'Accurate Table Top Scales | Fast Weighing for Shops and Industries.',
+    icon: ShoppingCart,
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Speed up your shop billing and light packing work with our very fast and accurate Table Top weighing scales.',
+    features: [],
+    specifications: []
+  },
+  {
+    title: 'Platform Weighing Scales',
+    slug: 'platform-weighing-scales',
+    category: 'Commercial/Industrial Scales',
+    description: 'Strong Industrial Platform Scales | Made for Rough Factory Use.',
+    icon: Package,
+    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Made especially for tough factory conditions, our platform scales give perfect accuracy even with heavy loading and rough handling.',
+    features: [],
+    specifications: []
+  },
+  {
+    title: 'Hopper Silo Weighing System',
+    slug: 'hopper-silo-weighing-system',
+    category: 'Commercial/Industrial Scales',
+    description: 'Live Inventory & Mixing Automation for raw materials.',
+    icon: Factory,
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    longDescription: 'Turn any simple hopper, tank, or silo into a highly accurate digital scale for easy mixing and stock checking.',
     features: [],
     specifications: []
   },

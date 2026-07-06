@@ -4,7 +4,7 @@ import { useState } from "react";
 import { products } from "@/lib/data";
 import Link from "next/link";
 
-const categories = ["All", "Heavy Weighbridges", "Industrial Scales", "Lab Scales", "Load Cells", "Software"];
+const categories = ["All", "Heavy Weighbridges", "Commercial/Industrial Scales", "Lab Scales", "Load Cells", "Software"];
 
 export default function Products() {
   const [activeCategory, setActiveCategory] = useState("All");
