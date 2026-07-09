@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { links } from "@/lib/config";
 import { ArrowRight, MessageCircle } from "lucide-react";
 
@@ -48,10 +49,12 @@ export default function Hero() {
         <div className="relative mt-8 lg:mt-0 hidden md:block">
           <div className="relative bg-white/5 border border-white/10 rounded-2xl h-80 lg:h-[450px] flex items-center justify-center shadow-2xl overflow-hidden backdrop-blur-md group">
             {/* We can use the platform placeholder image here */}
-            <img
-              src="/weighbridge-site/images/platform.png"
+            <Image
+              src="/images/platform.png"
               alt="High-Res Scale Installation"
-              className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+              fill
+              className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+              unoptimized
             />
             <div className="absolute inset-0 bg-brand-dark/40" />
             

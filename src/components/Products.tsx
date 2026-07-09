@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { products } from "@/lib/data";
 import Link from "next/link";
+import Image from "next/image";
 
 const categories = ["All", "Heavy Weighbridges", "Commercial/Industrial Scales", "Lab Scales", "Load Cells", "Software"];
 
@@ -56,10 +57,12 @@ export default function Products() {
                   className="w-[280px] sm:w-[320px] shrink-0 bg-white rounded-2xl border border-gray-100 hover:border-brand-blue/30 hover:shadow-2xl hover:shadow-brand-blue/5 transition-all duration-300 overflow-hidden flex flex-col block"
                 >
                   <div className="relative h-48 sm:h-56 overflow-hidden bg-gray-100">
-                    <img 
+                    <Image 
                       src={product.image} 
                       alt={product.title}
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover"
+                      unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
                   </div>
@@ -88,10 +91,12 @@ export default function Products() {
                   className="group bg-white rounded-2xl border border-gray-100 hover:border-brand-blue/30 hover:shadow-2xl hover:shadow-brand-blue/5 transition-all duration-300 overflow-hidden flex flex-col block"
                 >
                   <div className="relative h-56 overflow-hidden bg-gray-100">
-                    <img 
+                    <Image 
                       src={product.image} 
                       alt={product.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                      unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>

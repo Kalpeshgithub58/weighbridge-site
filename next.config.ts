@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
 
+const isGithubActions = process.env.GITHUB_ACTIONS || false;
+const repoName = "/weighbridge-site";
+
 const nextConfig: NextConfig = {
-  // Removed GitHub Pages specific settings (basePath, assetPrefix, output: "export")
-  // This allows images to load correctly on localhost and Vercel.
-  // It also enables API routes which we need for the Email/WhatsApp forms later.
+  output: "export",
+  images: {
+    unoptimized: true, 
+  },
+  basePath: isGithubActions ? repoName : "",
+  assetPrefix: isGithubActions ? repoName + "/" : "",
 };
 
 export default nextConfig;
