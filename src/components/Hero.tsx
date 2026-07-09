@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="relative bg-white/5 border border-white/10 rounded-2xl h-80 lg:h-[450px] flex items-center justify-center shadow-2xl overflow-hidden backdrop-blur-md group">
             {/* We can use the platform placeholder image here */}
             <Image
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/platform.png`}
+              src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/platform.png`}
               alt="High-Res Scale Installation"
               fill
               className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"

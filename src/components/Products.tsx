@@ -58,7 +58,7 @@ export default function Products() {
                 >
                   <div className="relative h-48 sm:h-56 overflow-hidden bg-gray-100">
                     <Image 
-                      src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${product.image}`}
+                      src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}${product.image}`}
                       alt={product.title}
                       fill
                       className="object-cover"
@@ -92,7 +92,7 @@ export default function Products() {
                 >
                   <div className="relative h-56 overflow-hidden bg-gray-100">
                     <Image 
-                      src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${product.image}`}
+                      src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}${product.image}`}
                       alt={product.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
