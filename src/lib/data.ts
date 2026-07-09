@@ -61,7 +61,7 @@ export const products = [
     category: 'Commercial/Industrial Scales',
     description: 'Accurate Table Top Scales | Fast Weighing for Shops and Industries.',
     icon: ShoppingCart,
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
+    image: '/images/IMG_4324.PNG',
     longDescription: 'Speed up your shop billing and light packing work with our very fast and accurate Table Top weighing scales.',
     features: [],
     specifications: []
@@ -72,7 +72,7 @@ export const products = [
     category: 'Commercial/Industrial Scales',
     description: 'Strong Industrial Platform Scales | Made for Rough Factory Use.',
     icon: Package,
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
+    image: '/images/IMG_4329.PNG',
     longDescription: 'Made especially for tough factory conditions, our platform scales give perfect accuracy even with heavy loading and rough handling.',
     features: [],
     specifications: []
@@ -88,13 +88,26 @@ export const products = [
     features: [],
     specifications: []
   },
+  /*
+  {
+    title: 'Crane Scale',
+    slug: 'crane-scale',
+    category: 'Commercial/Industrial Scales',
+    description: 'Heavy-Duty Hanging Crane Scales | Safe and accurate lifting weights.',
+    icon: Wrench,
+    image: '/images/IMG_4331.PNG',
+    longDescription: 'Perfect for heavy industrial lifting and weighing at the same time. Strong, safe, and highly accurate crane scales for factories and warehouses.',
+    features: [],
+    specifications: []
+  },
+  */
   {
     title: 'Lab and Jewellery Scales',
     slug: 'lab-and-jewellery-scales',
     category: 'Lab Scales',
     description: 'Highly Accurate Jewellery Balances | Perfect for Gold & Diamonds.',
     icon: Activity,
-    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80',
+    image: '/images/IMG_4325.PNG',
     longDescription: 'Our laboratory and jewellery scales give perfect accuracy down to the milligram for highly valuable items.',
     features: [],
     specifications: []
@@ -105,7 +118,7 @@ export const products = [
     category: 'Load Cells',
     description: 'Heavy-Duty Compression Load Cells | Strong Sensors for Silos & Weighbridges.',
     icon: Wrench,
-    image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/IMG_4335.JPG',
     longDescription: 'Made for the toughest industrial work, our Compression Load Cells are the best choice for heavy weighbridges and huge storage silos.',
     features: [],
     specifications: []
@@ -116,7 +129,7 @@ export const products = [
     category: 'Load Cells',
     description: 'Accurate Double Ended Shear Beam Load Cells | For Medium and Heavy use.',
     icon: Settings,
-    image: 'https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=800&q=80',
+    image: '/images/IMG_4334.JPG',
     longDescription: 'The Double Ended Shear Beam load cell is the most trusted sensor for heavy industrial scales because it handles side-shocks very well.',
     features: [],
     specifications: []
