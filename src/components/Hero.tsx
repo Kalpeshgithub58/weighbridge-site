@@ -4,14 +4,20 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative text-white py-24 sm:py-32 lg:py-40 px-4 sm:px-8 overflow-hidden">
+    <section id="home" className="relative text-white py-24 sm:py-32 lg:py-40 px-4 sm:px-8 overflow-hidden bg-brand-dark">
       {/* Full Screen Background Image */}
-      {/* <div
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80')" }}
-      /> */}
+      <div className="absolute inset-0 z-0 opacity-85 select-none pointer-events-none">
+        <Image
+          src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/hero_weighing_suite.png`}
+          alt="Weighing Industry background"
+          fill
+          className="object-cover object-right-bottom"
+          unoptimized
+          priority
+        />
+      </div>
       {/* Dark Overlay for Readability */}
-      <div className="absolute inset-0 z-0 bg-brand-dark/80 bg-gradient-to-r from-brand-dark/95 to-brand-dark/50" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-r from-brand-dark/95 via-brand-dark/70 to-transparent pointer-events-none" />
 
       {/* Dynamic Elements (Optional, reduced opacity) */}
       <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(234,124,36,0.15)_0%,_transparent_60%)] pointer-events-none" />
@@ -46,9 +52,8 @@ export default function Hero() {
         </div>
 
         {/* Dealer Highlight Image Area */}
-        <div className="relative mt-8 lg:mt-0 hidden md:block">
+        {/* <div className="relative mt-8 lg:mt-0 hidden md:block">
           <div className="relative bg-white/5 border border-white/10 rounded-2xl h-80 lg:h-[450px] flex items-center justify-center shadow-2xl overflow-hidden backdrop-blur-md group">
-            {/* We can use the platform placeholder image here */}
             <Image
               src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/platform.png`}
               alt="High-Res Scale Installation"
@@ -72,7 +77,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
