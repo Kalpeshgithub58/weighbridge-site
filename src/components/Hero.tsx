@@ -6,13 +6,13 @@ export default function Hero() {
   return (
     <section id="home" className="relative text-white py-24 sm:py-32 lg:py-40 px-4 sm:px-8 overflow-hidden">
       {/* Full Screen Background Image */}
-      <div 
+      {/* <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80')" }}
-      />
+      /> */}
       {/* Dark Overlay for Readability */}
       <div className="absolute inset-0 z-0 bg-brand-dark/80 bg-gradient-to-r from-brand-dark/95 to-brand-dark/50" />
-      
+
       {/* Dynamic Elements (Optional, reduced opacity) */}
       <div className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(234,124,36,0.15)_0%,_transparent_60%)] pointer-events-none" />
 
@@ -57,12 +57,12 @@ export default function Hero() {
               unoptimized
             />
             <div className="absolute inset-0 bg-brand-dark/40" />
-            
+
             <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm text-gray-900 px-5 py-4 rounded-xl shadow-xl">
               <div className="flex items-start gap-4">
                 <div className="bg-brand-blue/10 p-2.5 rounded-lg text-brand-blue shrink-0">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check-circle-2 w-6 h-6">
-                    <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
+                    <circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" />
                   </svg>
                 </div>
                 <div>
