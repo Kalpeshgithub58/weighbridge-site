@@ -24,7 +24,7 @@ export default function ModularWeighbridgePage() {
                   Modular <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Weighbridge</span>
               </h1>
               <p className="text-slate-400 mt-4 text-base md:text-lg max-w-3xl leading-relaxed">
-                  Streamline global transport and lightning-fast deployment with our precision bolt-on Modular weighing decks. Designed in optimized structural modules for seamless container logistics and ultra-precise structural alignment.
+                  Simplify transportation and installation with our Modular Weighbridge. Designed in strong pre-engineered sections, it can be transported easily and assembled quickly without compromising on strength or weighing accuracy.
               </p>
           </div>
       </header>
@@ -35,7 +35,7 @@ export default function ModularWeighbridgePage() {
               
               <section className="space-y-6">
                   <div className="border-l-4 border-amber-500 pl-4">
-                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Precision Segmented Engineering</h2>
+                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Precision Modular Design</h2>
                       <p className="text-slate-500 text-sm mt-1">Industrial standard bolt-together architecture that matches the strength of fully welded decks.</p>
                   </div>
                   
@@ -44,9 +44,9 @@ export default function ModularWeighbridgePage() {
                           <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
                               <i className="fa-solid fa-puzzle-piece text-xl"></i>
                           </div>
-                          <h3 className="font-bold text-lg text-slate-900 mb-2">Interlocking Bolt-On Integrity</h3>
+                          <h3 className="font-bold text-lg text-slate-900 mb-2">Strong Bolt-On Construction</h3>
                           <p className="text-slate-600 text-sm leading-relaxed">
-                              Our modular structures eliminate the need for dangerous and messy on-site welding. Every segment features ultra-precise CNC-drilled template holes, securing together with high-tensile fasteners (Grade 8.8/10.9) to distribute high axial loads evenly.
+                              The modular sections are connected using high-strength bolts, eliminating the need for on-site welding. Precision CNC-drilled holes ensure perfect alignment and uniform load distribution for long-lasting performance.
                           </p>
                       </div>
 
@@ -54,9 +54,9 @@ export default function ModularWeighbridgePage() {
                           <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
                               <i className="fa-solid fa-truck-moving text-xl"></i>
                           </div>
-                          <h3 className="font-bold text-lg text-slate-900 mb-2">Container-Optimized Dimensions</h3>
+                          <h3 className="font-bold text-lg text-slate-900 mb-2">Easy Transportation</h3>
                           <p className="text-slate-600 text-sm leading-relaxed">
-                              Specially engineered for export markets and distant sites. The entire structural deck splits down into standardized sectional modules that easily slide inside standard 20ft or 40ft shipping containers, cutting down transit freight costs dramatically.
+                              The weighbridge is designed in standard modular sections that fit inside 20 ft or 40 ft shipping containers. This reduces transportation costs and makes it ideal for export projects and remote locations.
                           </p>
                       </div>
                   </div>
@@ -64,49 +64,49 @@ export default function ModularWeighbridgePage() {
 
               <section className="space-y-6">
                   <div className="border-l-4 border-amber-500 pl-4">
-                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Rapid Deployment & Load Seating</h2>
+                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Quick Installation</h2>
                       <p className="text-slate-500 text-sm mt-1">Plug-and-play field setup paired with extreme environmental structural rigidities.</p>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
                           <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-clock text-xl"></i></div>
-                          <h4 className="font-bold text-slate-900 mb-2 text-base">70% Faster Installation</h4>
-                          <p className="text-slate-600 text-xs leading-relaxed">No expert fabrication setup or heavy alignment tooling needed. The modular parts are pre-fit at our factory, allowing your team to complete the full site assembly inside a single working day.</p>
+                          <h4 className="font-bold text-slate-900 mb-2 text-base">Quick Installation</h4>
+                          <p className="text-slate-600 text-xs leading-relaxed">The modular parts are pre-engineered and factory-tested before dispatch. This allows fast and easy installation at the site, reducing installation time and minimizing project delays.</p>
                       </div>
 
                       <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
                           <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-shuffle text-xl"></i></div>
-                          <h4 className="font-bold text-slate-900 mb-2 text-base">Effortless Relocation</h4>
-                          <p className="text-slate-600 text-xs leading-relaxed">Ideal for leased yards, mining contracts, and changing layouts. Unbolt the segments, pack them onto a standard commercial flatbed truck, and reinstall them at your new location with zero structural loss.</p>
+                          <h4 className="font-bold text-slate-900 mb-2 text-base">Easy Relocation</h4>
+                          <p className="text-slate-600 text-xs leading-relaxed">Perfect for leased premises, mining projects, and temporary installations. The weighbridge can be dismantled, transported, and reinstalled at another location without affecting its structural strength or weighing accuracy.</p>
                       </div>
 
                       <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
                           <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-circle-nodes text-xl"></i></div>
-                          <h4 className="font-bold text-slate-900 mb-2 text-base">Localized Module Swapping</h4>
-                          <p className="text-slate-600 text-xs leading-relaxed">In rare cases of severe site accidents, you do not need to replace or fix the whole deck structure. Simply unbolt that specific sub-module and drop in a fresh factory-fit replacement segment.</p>
+                          <h4 className="font-bold text-slate-900 mb-2 text-base">Easy Module Replacement</h4>
+                          <p className="text-slate-600 text-xs leading-relaxed">If any section is damaged due to an accident, there is no need to replace the complete weighbridge. Only the damaged module can be removed and replaced, saving both time and maintenance costs.</p>
                       </div>
                   </div>
               </section>
 
               <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                  <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-globe text-amber-500 mr-2"></i>Global Logistics & Operational Scalability</h2>
+                  <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-globe text-amber-500 mr-2"></i>Logistics & Operational Benefits</h2>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <div>
                           <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Reduced Freight Footprint
+                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Lower Transportation Cost
                           </h4>
                           <p className="text-slate-300 text-sm leading-relaxed">
-                              Traditional long-deck weighbridges require specialized long trailers and permissions. Our modular segments eliminate oversized cargo hassles, reducing local and international logistical friction to near zero.
+                              Unlike conventional weighbridges that require special trailers and transport permissions, modular sections can be transported using standard trucks or shipping containers. This makes transportation easier and more economical.
                           </p>
                       </div>
                       <div>
                           <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Factory-Calibrated Precision
+                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Factory-Tested Accuracy
                           </h4>
                           <p className="text-slate-300 text-sm leading-relaxed">
-                              Each interlocking panel is standard machine-punched and structurally tested under rigorous simulation templates. This guarantees that your metrological accuracy remains 100% steady over decades of high-capacity cyclic use.
+                              Every module is manufactured with high precision and tested at our factory before dispatch. This ensures accurate weighing, proper alignment, and reliable long-term performance even under continuous heavy-duty use.
                           </p>
                       </div>
                   </div>

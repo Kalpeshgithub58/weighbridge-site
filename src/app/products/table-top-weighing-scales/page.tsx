@@ -27,7 +27,7 @@ export default function TableTopWeighingScalesPage() {
                 Table Top <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Weighing Scales</span>
             </h1>
             <p className="text-slate-400 mt-4 text-base md:text-lg max-w-3xl leading-relaxed">
-                Empower your commercial operations with our compact, heavy-duty Table Top scales. Engineered to endure continuous daily weight cycles while providing long-lasting battery configurations and ultra-clear billing display readouts.
+                Improve your daily business operations with our Table Top Weighing Scales. Designed for retail stores, supermarkets, grocery shops, and commercial applications, these scales provide accurate weighing, long battery backup, and reliable performance for continuous daily use.
             </p>
         </div>
     </header>
@@ -41,30 +41,28 @@ export default function TableTopWeighingScalesPage() {
             {/*  Section 1: Mechanical Stability & Overload Safeguards  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Rugged Retail Framework & Core Rigidity</h2>
-                    <p className="text-slate-500 text-sm mt-1">Industrial-strength internal design calibrated to absorb sudden drop shocks on shop counters.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Strong & Durable Design</h2>
+                    <p className="text-slate-500 text-sm mt-1">Built with a heavy-duty internal structure to withstand daily usage, accidental impacts, and continuous weighing without affecting accuracy.</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/*  Feature 1  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-shield text-xl"></i>
+                            <i className="fa-solid fa-shield-halved text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Integrated Mechanical Overload Stops</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Overload Protection</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Commercial shop counters often experience rough use and accidental overweight dumps. Our structures integrate precision mechanical down-stops that protect the sensitive internal single-point load cell from permanent deformation, absorbing up to 200% of the rated scale limit.
+                            Equipped with an inbuilt overload protection system that safeguards the load cell from damage caused by excessive weight, ensuring longer service life.
                         </p>
                     </div>
 
-                    {/*  Feature 2  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
                             <i className="fa-solid fa-battery-three-quarters text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Ultra-Low Power Microcontroller Engine</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Long Battery Backup</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Equipped with high-performance operational power-saving software chips. The balance enters an automatic sleep/standby state when the scale is empty, providing an extended battery backup run-time of over 50 hours on a single charge loop.
+                            Advanced power-saving technology automatically switches the scale to standby mode when not in use, providing extended battery backup on a single charge.
                         </p>
                     </div>
                 </div>
@@ -73,55 +71,73 @@ export default function TableTopWeighingScalesPage() {
             {/*  Section 2: Component Materials & Visual Interfacing  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Premium Architecture & Dual-Sided Displays</h2>
-                    <p className="text-slate-500 text-sm mt-1">Government-approved legal metrology parameters optimized for intense retail trading.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Key Product Features</h2>
+                    <p className="text-slate-500 text-sm mt-1">Premium materials and interfaces engineered for accurate everyday commercial use.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {/*  Feature 3  */}
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-sheet-plastic text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">SUS304 Stainless Pan</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">The wide weighing platform is pressed from anti-corrosion, food-grade stainless steel sheets. Super easy to clean, highly sanitary, and resistant to oil, moisture, and salt stains.</p>
+                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-utensils text-xl"></i></div>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Food-Grade Stainless Steel Pan</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">The weighing platform is made from SUS304 stainless steel, offering excellent resistance to rust, moisture, and corrosion. It is easy to clean and suitable for food-related applications.</p>
                     </div>
 
-                    {/*  Feature 4  */}
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
                         <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-eye text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Dual Bright Display</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Features high-intensity red/green LED display windows on both the operator side and customer side, ensuring absolute billing transparency during rapid weight tracking loops.</p>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Dual Display</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">Bright LED displays on both the operator and customer sides ensure clear visibility and transparent weighing during billing.</p>
                     </div>
 
-                    {/*  Feature 5  */}
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-circle-nodes text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Piece Counting Mode</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">The internal terminal software supports dual operational modes, allowing operators to instantly switch between standard weighing and high-accuracy piece-counting for uniform hardware parts.</p>
+                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-calculator text-xl"></i></div>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Piece Counting Function</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">Supports both weighing and piece counting modes, making it suitable for counting uniform items such as nuts, bolts, hardware components, and small packaged products.</p>
                     </div>
                 </div>
             </section>
 
             {/*  Section 3: Value Added Capabilities  */}
             <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-store text-amber-500 mr-2"></i>Built to Secure Daily Retail Returns</h2>
+                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-store text-amber-500 mr-2"></i>Structure & Certification</h2>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> High-Impact ABS Housing Casing
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> High-Quality ABS Body
                         </h4>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            The outer structural shell is injection-molded from premium, tough ABS polymer plastic. This provides high impact isolation, protecting the internal electronics motherboard and battery links from daily wear, chemical splashes, and heavy impacts.
+                            The strong ABS plastic housing protects the internal electronics from daily wear, accidental impacts, and harsh working conditions.
                         </p>
                     </div>
                     <div>
                         <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Legal Metrology Approved Ready
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Legal Metrology Approved
                         </h4>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            Every single scale build is configured to meet strict Class III accuracy standards. Precision-engineered calibration parameters ensure trouble-free government verification routines and complete compliance for commercial trading.
+                            Manufactured as per Legal Metrology standards with Class III accuracy, making it suitable for commercial weighing and billing applications.
                         </p>
                     </div>
+                </div>
+            </section>
+
+            {/*  Applications Section  */}
+            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100 space-y-6">
+                <div className="border-l-4 border-amber-500 pl-4">
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Ideal Applications</h2>
+                    <p className="text-slate-500 text-sm mt-1">Perfectly suited for various retail, commercial, and small industrial setups.</p>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {[
+                        "Grocery Stores", "Supermarkets", "Fruit & Vegetable Shops", "Sweet Shops",
+                        "Bakeries", "Dairy Stores", "Hardware Shops", "Retail Counters"
+                    ].map((app) => (
+                        <div key={app} className="bg-slate-50 border border-slate-200/60 rounded-xl p-4 flex items-center gap-3 hover:bg-white hover:shadow-xs transition-all">
+                            <div className="w-8 h-8 bg-amber-500/10 rounded-lg flex items-center justify-center text-amber-600">
+                                <i className="fa-solid fa-circle-check text-sm"></i>
+                            </div>
+                            <span className="font-semibold text-xs text-slate-700">{app}</span>
+                        </div>
+                    ))}
                 </div>
             </section>
 
@@ -193,7 +209,7 @@ export default function TableTopWeighingScalesPage() {
                 <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
                     <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-600"></div>
                     
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Trade Callback</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
                     <p className="text-xs text-slate-500 mb-6">Connect with our retail integration specialists for custom dealership pricing models, stamping certifications, and active volume discounts.</p>
                     
                     <form action="#" method="POST" className="space-y-4">

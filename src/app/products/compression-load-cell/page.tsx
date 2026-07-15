@@ -38,90 +38,107 @@ export default function CompressionLoadCellPage() {
         {/*  Left & Center Content: Upgraded Technical Specifications  */}
         <div className="lg:col-span-2 space-y-12">
             
-            {/*  Section 1: Metrological Performance  */}
+            {/*  Section 1: Types of Compression Load Cells  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Pure Vertical Precision & Axial Alignment</h2>
-                    <p className="text-slate-500 text-sm mt-1">High-density hardened core structure engineered to isolate true vertical gravity vectors.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Types of Compression Load Cells</h2>
+                    <p className="text-slate-500 text-sm mt-1">Choose between high-precision analog and smart digital load cell configurations.</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/*  Feature 1  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-arrows-to-line text-xl"></i>
+                            <i className="fa-solid fa-chart-line text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Advanced Anti-Rotation Locks</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Analog Compression Load Cell</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Equipped with custom integrated anti-rotation mechanisms. This stops the core sensor column from twisting or shifting axially during extreme multi-directional vehicle braking cycles, ensuring identical calibration parameters over years.
+                            The strain gauges inside the load cell generate a small analog signal (mV/V). The junction box combines the signals from all load cells, and the weighing indicator converts them into the displayed weight.
                         </p>
                     </div>
 
-                    {/*  Feature 2  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-compress-arrows-to-box text-xl"></i>
+                            <i className="fa-solid fa-signal text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Compact High-Capacity Baseline</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Digital Compression Load Cell</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            The space-efficient canister design houses multiple internal shear micro-bridges. This allows the assembly to absorb heavy compressive loads with absolute ease, taking up far less layout room compared to alternative sensors.
+                            The analog signal is converted into a digital signal inside the load cell. The processed data is transmitted directly to the digital indicator.
                         </p>
                     </div>
                 </div>
             </section>
 
-            {/*  Section 2: Shielding & Durability  */}
-            <section className="space-y-6">
-                <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Environmental Armor & Structural Isolation</h2>
-                    <p className="text-slate-500 text-sm mt-1">Industrial-grade tool steel outer casing matched with hermetic laser seals.</p>
+            {/*  Section 2: General Typical Specifications Table  */}
+            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
+                <div className="border-l-4 border-amber-500 pl-4 mb-6">
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">General Typical Specifications</h2>
+                    <p className="text-slate-500 text-sm mt-1">Comparison of core physical and electrical properties between analog and digital variants.</p>
                 </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {/*  Feature 3  */}
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-sheet-plastic"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Laser Welded IP68</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">The internal strain element core is hermetically enclosed inside a heavy stainless steel protective cover jacket, preventing sub-grade pit mud and water seeping.</p>
-                    </div>
-
-                    {/*  Feature 4  */}
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-up-down text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Self-Aligning Upper Cup</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Pairs perfectly with top rocker receiving hardened cups, automatically centering uneven platform weight straight onto the vertical load center axis line.</p>
-                    </div>
-
-                    {/*  Feature 5  */}
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-bolt-lightning text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Transient Voltage Defense</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Equipped with customized low-impedance copper ground straps to bypass dangerous lightning currents and static warehouse discharge away from terminal PCBs.</p>
-                    </div>
-                </div>
-            </section>
-
-            {/*  Section 3: Performance Metrics  */}
-            <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-wave-square text-amber-500 mr-2"></i>Signal Resolution & Core Engineering Specs</h2>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> High Sensitivity Output
-                        </h4>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                            Features a premium calibrated 2.0 mV/V voltage scaling format. This translates to ultra-clear analog signals traveling smoothly down junction boxes over extended multi-PCB digital indicator configurations.
-                        </p>
-                    </div>
-                    <div>
-                        <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Minimal Hysteresis Curve
-                        </h4>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                            Guarantees near-zero structural creep errors (below ±0.025% of total scale capacity limits). Ideal for continuous high-speed industrial weighing, scrap load handling, and material batching control.
-                        </p>
-                    </div>
+                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
+                    <table className="w-full text-left border-collapse">
+                        <thead>
+                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
+                                <th className="p-4 rounded-tl-xl">Parameter</th>
+                                <th className="p-4">Analog</th>
+                                <th className="p-4 rounded-tr-xl">Digital</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
+                            {[
+                                { param: "Capacity", analog: "10, 20, 25, 30, 40, 50 t (model-dependent)", digital: "10, 20, 25, 30, 40, 50 t (model-dependent)" },
+                                { param: "Material", analog: "Alloy Steel", digital: "Alloy Steel" },
+                                { param: "Protection", analog: "IP68 / IP69K (varies by model)", digital: "IP68 / IP69K (varies by model)" },
+                                { param: "Accuracy", analog: "High", digital: "Very High" },
+                                { param: "Output", analog: "mV/V", digital: "Digital communication" },
+                                { param: "Junction Box", analog: "Required", digital: "Usually used for communication and power distribution, not signal trimming" },
+                                { param: "Corner Calibration", analog: "Manual", digital: "Often software-assisted" },
+                                { param: "Cable Noise", analog: "More susceptible", digital: "Highly resistant" }
+                            ].map((row, idx) => (
+                                <tr key={idx} className="hover:bg-slate-50/80 transition-colors">
+                                    <td className="p-4 font-bold text-slate-900">{row.param}</td>
+                                    <td className="p-4 font-normal text-slate-600">{row.analog}</td>
+                                    <td className="p-4 font-normal text-slate-600 bg-slate-50/50">{row.digital}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {/*  Section 3: Analog vs Digital Comparison Table  */}
+            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
+                <div className="border-l-4 border-amber-500 pl-4 mb-6">
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Analog vs Digital Comparison</h2>
+                    <p className="text-slate-500 text-sm mt-1">Key operational features contrasted for decision support.</p>
+                </div>
+                
+                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
+                    <table className="w-full text-left border-collapse">
+                        <thead>
+                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
+                                <th className="p-4 rounded-tl-xl">Feature</th>
+                                <th className="p-4">Analog</th>
+                                <th className="p-4 rounded-tr-xl">Digital</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
+                            {[
+                                { feat: "Price", analog: "Lower", digital: "Higher" },
+                                { feat: "Accuracy", analog: "Excellent", digital: "Excellent to very high" },
+                                { feat: "Electrical Noise", analog: "More susceptible", digital: "Much better immunity" },
+                                { feat: "Fault Detection", analog: "Manual", digital: "Automatic diagnostics on many systems" },
+                                { feat: "Long Cable Performance", analog: "Moderate", digital: "Better" },
+                                { feat: "Maintenance", analog: "Easy", digital: "Easier fault identification" }
+                            ].map((row, idx) => (
+                                <tr key={idx} className="hover:bg-slate-50/80 transition-colors">
+                                    <td className="p-4 font-bold text-slate-900">{row.feat}</td>
+                                    <td className="p-4 font-normal text-slate-600">{row.analog}</td>
+                                    <td className="p-4 font-normal text-slate-600 bg-slate-50/50">{row.digital}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
                 </div>
             </section>
 
@@ -200,7 +217,7 @@ export default function CompressionLoadCellPage() {
                 <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
                     <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-600"></div>
                     
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Datasheet</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
                     <p className="text-xs text-slate-500 mb-6">Connect with our structural engineers for custom load calibration baselines, dimensional metrics, and quick pricing variants.</p>
                     
                     <form action="#" method="POST" className="space-y-4">

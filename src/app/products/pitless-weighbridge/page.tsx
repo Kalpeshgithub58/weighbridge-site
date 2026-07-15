@@ -23,10 +23,10 @@ export default function PitlessWeighbridgePage() {
         <div className="max-w-7xl mx-auto relative z-10">
             <span className="text-amber-500 font-bold tracking-widest text-xs uppercase bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">Next-Gen Engineering</span>
             <h1 className="text-3xl md:text-5xl font-extrabold mt-4 tracking-tight leading-tight">
-                Surface Mounted <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Weighbridge</span>
+                Pitless <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Weighbridge</span>
             </h1>
             <p className="text-slate-400 mt-4 text-base md:text-lg max-w-3xl leading-relaxed">
-                Elevate your heavy-duty material tracking with our premium above-ground weighing platforms. Engineered to eliminate complex excavation while delivering uncompromising precision under intense cyclical loading profiles.
+                Our Pitless Weighbridge is designed for industries that need accurate, reliable, and long-lasting vehicle weighing. Since it is installed above ground, it requires very little civil work, reducing installation time and overall project cost while maintaining high weighing accuracy.
             </p>
         </div>
     </header>
@@ -37,28 +37,18 @@ export default function PitlessWeighbridgePage() {
             
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Structural Rigidity & Integrity</h2>
-                    <p className="text-slate-500 text-sm mt-1">Built to endure heavy multi-axle vehicular stress without long-term deflection.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Strong & Durable Structure</h2>
+                    <p className="text-slate-500 text-sm mt-1">Built to handle heavy multi-axle vehicles without bending or losing its strength over years of continuous use.</p>
                 </div>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 gap-6">
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-cubes-stacked text-xl"></i>
+                            <i className="fa-solid fa-weight-hanging text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Structural Mastery</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">High-Strength Steel Construction</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Fabricated using premium-grade, ultra-high-tensile reinforced mild steel. The entire load-bearing framework is precision-engineered to withstand heavy cyclical wheel loads and endure the most abrasive industrial environments without structural deformation.
-                        </p>
-                    </div>
-
-                    <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
-                        <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-bezier-curve text-xl"></i>
-                        </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Continuous Interlocking Welds</h3>
-                        <p className="text-slate-600 text-sm leading-relaxed">
-                            Unlike standard stitch-welding methods, our reinforcing ribs are continuously welded across the heavy-duty I-beam sub-structure. This delivers unparalleled stiffness, eliminating deck deflection even under maximum gross vehicle weight (GVW).
+                            The platform is manufactured using premium-quality high-tensile mild steel. Its strong load-bearing structure is designed to carry heavy vehicle loads and perform reliably even in tough industrial working conditions.
                         </p>
                     </div>
                 </div>
@@ -66,49 +56,43 @@ export default function PitlessWeighbridgePage() {
 
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Logistics & Metrological Precision</h2>
-                    <p className="text-slate-500 text-sm mt-1">Smart modular layout combined with advanced shock-absorbing alignment hardware.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Smart Design for Easy Transport & Installation</h2>
+                    <p className="text-slate-500 text-sm mt-1">Smart modular interlocking setup designed for convenient transport and precise loading alignment.</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-truck-ramp-box"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Smart Modular Layout</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Designed with a smart, fully dismountable interlocking layout. Every single component can be effortlessly split, making long-distance transportation highly cost-effective and enabling rapid setup.</p>
+                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-cubes-stacked text-xl"></i></div>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Modular Platform Design</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">The platform is built with a modular interlocking design that can be dismantled into individual sections. This makes transportation easier, reduces freight costs, and allows faster installation at the site.</p>
                     </div>
 
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-shield-halved"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Dynamic Shock Absorption</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Impact mitigation technology is built right into the mounting assemblies. This hardware safely dampens severe horizontal thrust forces generated when multi-axle trucks abruptly enter the scale.</p>
-                    </div>
-
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-crosshairs"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Self-Centering Mounts</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">All high-accuracy load cells are seated on specialized self-centering mounting assemblies. This optimizes load distribution and guarantees near-zero hysteresis with absolute repeatability.</p>
+                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-crosshairs text-xl"></i></div>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Self-Centering Load Cell Mounts</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">The load cells are installed on a very specific point so it can automatically maintain proper alignment, ensure even load distribution, and provide consistent, highly accurate weighing results every time.</p>
                     </div>
                 </div>
             </section>
 
             <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-chart-line text-amber-500 mr-2"></i>Economic & Operational Advantages</h2>
+                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-hand-holding-dollar text-amber-500 mr-2"></i>Economic & Operational Benefits</h2>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> High-ROI Surface Installation
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Cost-Effective Surface Installation
                         </h4>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            The elevated pitless profile completely removes the need for deep, expensive underground foundation pits and complex civil drainage networks, saving substantial initial structural capital.
+                            The above-ground (pitless) design removes the need for deep excavation, costly foundation pits, and complicated drainage work. This helps reduce civil construction costs.
                         </p>
                     </div>
                     <div>
                         <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Zero-Downtime Service Design
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Easy Maintenance with Less Downtime
                         </h4>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            Since the entire weighing deck sits clean above ground level, routine maintenance, mud-flushing, visual tracking, and load cell calibrations are exceptionally straightforward, keeping operational downtime to a bare minimum.
+                            Since the complete weighbridge platform is installed above ground, cleaning, maintenance, inspection, and load cell calibration can be done quickly and easily. This reduces machine downtime and keeps your operations running smoothly.
                         </p>
                     </div>
                 </div>

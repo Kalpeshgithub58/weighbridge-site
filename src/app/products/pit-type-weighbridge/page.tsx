@@ -24,7 +24,7 @@ export default function PitTypeWeighbridgePage() {
                   Pit Type <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Weighbridge</span>
               </h1>
               <p className="text-slate-400 mt-4 text-base md:text-lg max-w-3xl leading-relaxed">
-                  Maximize yard operational space with our ultra-rugged, flush-to-ground Pit Type weighing systems. Engineered specifically for high-frequency loading cycles and congested yards requiring multi-directional vehicular movement.
+                  Make the best use of your available yard space with our heavy-duty Pit Type Weighbridge. Installed at ground level, it is specially designed for busy factories and warehouses where vehicles move frequently from different directions.
               </p>
           </div>
       </header>
@@ -35,8 +35,8 @@ export default function PitTypeWeighbridgePage() {
               
               <section className="space-y-6">
                   <div className="border-l-4 border-amber-500 pl-4">
-                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Heavy Underground Reinforcement</h2>
-                      <p className="text-slate-500 text-sm mt-1">Maximum lateral stiffness designed to handle massive cross-traffic impacts effortlessly.</p>
+                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Strong Underground Structure</h2>
+                      <p className="text-slate-500 text-sm mt-1">Built with a heavily reinforced foundation to provide excellent strength and stability. It easily handles heavy vehicle movement and cross traffic without affecting performance.</p>
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -44,9 +44,9 @@ export default function PitTypeWeighbridgePage() {
                           <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
                               <i className="fa-solid fa-compress text-xl"></i>
                           </div>
-                          <h3 className="font-bold text-lg text-slate-900 mb-2">Flush Ground Integration</h3>
+                          <h3 className="font-bold text-lg text-slate-900 mb-2">Ground Level Installation</h3>
                           <p className="text-slate-600 text-sm leading-relaxed">
-                              Since the deck is mounted exactly level with the ground surface, it occupies zero extra airspace or ramp space. This permits heavy trucks to cross or turn from any angle, making it the perfect choice for compact factories and congested premises.
+                              The weighbridge platform is installed flush with the ground, so it does not require extra space for ramps. Trucks can enter, exit, or turn from any direction, making it ideal for factories with limited space.
                           </p>
                       </div>
 
@@ -54,9 +54,9 @@ export default function PitTypeWeighbridgePage() {
                           <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
                               <i className="fa-solid fa-vector-square text-xl"></i>
                           </div>
-                          <h3 className="font-bold text-lg text-slate-900 mb-2">Anti-Twist Structural Girder Layout</h3>
+                          <h3 className="font-bold text-lg text-slate-900 mb-2">Anti-Twist Girder Design</h3>
                           <p className="text-slate-600 text-sm leading-relaxed">
-                              Our underground framework features dense longitudinal main-girders cross-linked with high-thickness bracing plates. This prevents complex torsional warping or physical twisting caused by sudden brake applications from multi-axle dumpers.
+                              The platform is built with strong longitudinal girders and heavy cross bracing. This design prevents twisting and deformation caused by sudden braking or movement of multi-axle heavy vehicles, ensuring long-lasting durability.
                           </p>
                       </div>
                   </div>
@@ -64,49 +64,55 @@ export default function PitTypeWeighbridgePage() {
 
               <section className="space-y-6">
                   <div className="border-l-4 border-amber-500 pl-4">
-                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Environmental Shielding & Alignment</h2>
+                      <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Protected Components & Alignment</h2>
                       <p className="text-slate-500 text-sm mt-1">Smart component sealing paired with precision dual-link load cell restraints.</p>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                          <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-boxes-packing"></i></div>
-                          <h4 className="font-bold text-slate-900 mb-2 text-base">Sectional Module Transport</h4>
-                          <p className="text-slate-600 text-xs leading-relaxed">Engineered in heavy interlocking grid segments. Even our highest-tonnage pit frames can be dismantled down to standard sizes for regular transport and swift underground alignment mapping.</p>
+                          <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-shield-halved text-xl"></i></div>
+                          <h4 className="font-bold text-slate-900 mb-2 text-base">Protected Components & Accurate Alignment</h4>
+                          <p className="text-slate-600 text-xs leading-relaxed">All important components are well protected against dust, water, and harsh weather conditions. The precision load cell mounting system maintains accurate weighing performance over time.</p>
                       </div>
 
                       <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                          <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-anchor"></i></div>
-                          <h4 className="font-bold text-slate-900 mb-2 text-base">Restraint Assembly Locks</h4>
-                          <p className="text-slate-600 text-xs leading-relaxed">High-clearance bumper checks and stay-rod mounting assemblies effectively isolate extreme structural shifting when bulk mining trucks aggressively back into the platform.</p>
+                          <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-truck-ramp-box text-xl"></i></div>
+                          <h4 className="font-bold text-slate-900 mb-2 text-base">Modular Design for Easy Transportation</h4>
+                          <p className="text-slate-600 text-xs leading-relaxed">The weighbridge is manufactured in strong modular sections, making transportation, installation, and future relocation easier and more convenient.</p>
                       </div>
 
                       <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                          <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-droplet-slash"></i></div>
-                          <h4 className="font-bold text-slate-900 mb-2 text-base">Hermetic Load Cell Sealing</h4>
-                          <p className="text-slate-600 text-xs leading-relaxed">To resist underground moisture and dust accumulation, we integrate premium IP68/IP69K stainless steel load cells with smart self-aligning rocker assemblies for long-term precision baseline stability.</p>
+                          <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-anchor text-xl"></i></div>
+                          <h4 className="font-bold text-slate-900 mb-2 text-base">Heavy-Duty Restraint System</h4>
+                          <p className="text-slate-600 text-xs leading-relaxed">Special bumper stops and stay rod assemblies help reduce excessive platform movement when heavily loaded trucks enter, stop, or reverse onto the weighbridge.</p>
+                      </div>
+
+                      <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
+                          <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-droplet-slash text-xl"></i></div>
+                          <h4 className="font-bold text-slate-900 mb-2 text-base">Fully Sealed Load Cells</h4>
+                          <p className="text-slate-600 text-xs leading-relaxed">We use premium IP68/IP69K stainless steel load cells with self-aligning rocker assemblies to protect against water, dust, and moisture. This ensures reliable and accurate weighing for many years.</p>
                       </div>
                   </div>
               </section>
 
               <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                  <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-arrows-turn-to-dots text-amber-500 mr-2"></i>Operational Logistics Advantages</h2>
+                  <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-arrows-turn-to-dots text-amber-500 mr-2"></i>Operational Benefits</h2>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                       <div>
                           <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Zero Ramp-Space Dependency
+                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> No Need for Approach Ramps
                           </h4>
                           <p className="text-slate-300 text-sm leading-relaxed">
-                              Unlike pitless platforms, this system completely removes the requirement for long concrete approach ramps on either end, reclaiming significant square footage for active warehouse loading bays.
+                              Since the weighbridge is installed at ground level, no long concrete ramps are required. This saves valuable yard space and provides more room for vehicle movement and loading operations.
                           </p>
                       </div>
                       <div>
                           <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Optimal High-Traffic Flow
+                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Smooth Vehicle Movement
                           </h4>
                           <p className="text-slate-300 text-sm leading-relaxed">
-                              Designed explicitly for heavy manufacturing plants and ports. The ground-flush profile maintains uniform yard speed baselines, facilitating non-stop commercial vehicle tracking with maximum safety margins.
+                              Ideal for busy factories, warehouses, ports, and industrial plants. The ground-level design allows trucks to move smoothly from any direction, improving traffic flow, reducing waiting time, and increasing operational efficiency.
                           </p>
                       </div>
                   </div>

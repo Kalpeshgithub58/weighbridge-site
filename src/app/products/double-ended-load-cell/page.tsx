@@ -35,82 +35,107 @@ export default function DoubleEndedLoadCellPage() {
         
         <div className="lg:col-span-2 space-y-12">
             
+            {/*  Section 1: Types of Double-Ended Load Cells  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Metrological Superiority & Structural Strength</h2>
-                    <p className="text-slate-500 text-sm mt-1">High-alloy tool steel construction built for maximum continuous repeatable strain output.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Types of Double-Ended Load Cells</h2>
+                    <p className="text-slate-500 text-sm mt-1">Choose between robust analog and precision digital double-ended load cells.</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-gauge-high text-xl"></i>
+                            <i className="fa-solid fa-chart-line text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Dual Shear Strain Optimization</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Analog Load Cell</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Unlike traditional compression sensors, our double-ended layout measures shear strain at both ends of the cell body. This effectively cancels out heavy eccentric, non-axial, and unexpected tilting loads caused by moving heavy vehicles.
+                            The analog load cell produces a very small millivolt (mV/V) signal proportional to the applied load.
                         </p>
                     </div>
 
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-temperature-arrow-up text-xl"></i>
+                            <i className="fa-solid fa-signal text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Thermal Baseline Compensation</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Digital Load Cell</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Integrated with advanced internal foil-gauge bridges that dynamically counteract thermal variations. This ensures zero weight drift and flawless operational precision even when environmental temperatures fluctuate wildly across harsh Indian weather patterns.
+                            The strain gauges generate an analog signal proportional to the applied load same as analog loadcell. An Analog-to-Digital (A/D) converter converts it into digital data. A microprocessor processes and transmits the digital value to the indicator.
                         </p>
                     </div>
                 </div>
             </section>
 
-            <section className="space-y-6">
-                <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Heavy-Duty Isolation & Sealing Architecture</h2>
-                    <p className="text-slate-500 text-sm mt-1">Complete structural shielding from underground water-logging and industrial dust.</p>
+            {/*  Section 2: General Typical Specifications Table  */}
+            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
+                <div className="border-l-4 border-amber-500 pl-4 mb-6">
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">General Typical Specifications</h2>
+                    <p className="text-slate-500 text-sm mt-1">Comparison of core physical and electrical properties between analog and digital variants.</p>
                 </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-water-ladder text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">IP68/IP69K Hermetic Seal</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">The internal strain-gauge cavity is completely sealed using laser-welded stainless steel element sheets, ensuring complete water submersion protection in sub-grade pits.</p>
-                    </div>
-
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-arrows-to-dot text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Self-Centering Rocker</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Designed to pair perfectly with custom link-mounting hardware. The cell instantly resets to its true vertical balance point after receiving multi-directional braking stress.</p>
-                    </div>
-
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-shield-cat text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Surge & Lightning Protection</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Equipped with internal low-impedance protection baselines to divert sudden voltage spikes and static electrical charges away from sensitive electronics.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-microchip text-amber-500 mr-2"></i>Advanced Operational Performance Parameters</h2>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Near-Zero Hysteresis Output
-                        </h4>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                            Our double-ended sensor design guarantees absolute repeatability margins of less than ±0.02% of the rated total load output. Perfect for extreme high-frequency multi-axle bulk weighing hubs.
-                        </p>
-                    </div>
-                    <div>
-                        <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> High Input Impedance Calibration
-                        </h4>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                            Engineered with premium internal resistance configurations (700Ω baselines), resulting in minimal power dissipation, reduced connection cable errors, and better signal stability at the digital indicator.
-                        </p>
-                    </div>
+                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
+                    <table className="w-full text-left border-collapse">
+                        <thead>
+                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
+                                <th className="p-4 rounded-tl-xl">Parameter</th>
+                                <th className="p-4">Analog</th>
+                                <th className="p-4 rounded-tr-xl">Digital</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
+                            {[
+                                { param: "Capacity", analog: "10, 20, 25, 30, 40, 50 t (model-dependent)", digital: "10, 20, 25, 30, 40, 50 t (model-dependent)" },
+                                { param: "Material", analog: "Alloy Steel", digital: "Alloy Steel" },
+                                { param: "Protection", analog: "IP68 / IP69K (varies by model)", digital: "IP68 / IP69K (varies by model)" },
+                                { param: "Accuracy", analog: "High", digital: "Very High" },
+                                { param: "Output", analog: "mV/V", digital: "Digital communication" },
+                                { param: "Junction Box", analog: "Required", digital: "Usually used for communication and power distribution, not signal trimming" },
+                                { param: "Corner Calibration", analog: "Manual", digital: "Often software-assisted" },
+                                { param: "Cable Noise", analog: "More susceptible", digital: "Highly resistant" }
+                            ].map((row, idx) => (
+                                <tr key={idx} className="hover:bg-slate-50/80 transition-colors">
+                                    <td className="p-4 font-bold text-slate-900">{row.param}</td>
+                                    <td className="p-4 font-normal text-slate-600">{row.analog}</td>
+                                    <td className="p-4 font-normal text-slate-600 bg-slate-50/50">{row.digital}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            {/*  Section 3: Analog vs Digital Comparison Table  */}
+            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
+                <div className="border-l-4 border-amber-500 pl-4 mb-6">
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Analog vs Digital Comparison</h2>
+                    <p className="text-slate-500 text-sm mt-1">Key operational features contrasted for decision support.</p>
+                </div>
+                
+                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
+                    <table className="w-full text-left border-collapse">
+                        <thead>
+                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
+                                <th className="p-4 rounded-tl-xl">Feature</th>
+                                <th className="p-4">Analog</th>
+                                <th className="p-4 rounded-tr-xl">Digital</th>
+                            </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
+                            {[
+                                { feat: "Price", analog: "Lower", digital: "Higher" },
+                                { feat: "Accuracy", analog: "Excellent", digital: "Excellent to very high" },
+                                { feat: "Electrical Noise", analog: "More susceptible", digital: "Much better immunity" },
+                                { feat: "Fault Detection", analog: "Manual", digital: "Automatic diagnostics on many systems" },
+                                { feat: "Long Cable Performance", analog: "Moderate", digital: "Better" },
+                                { feat: "Maintenance", analog: "Easy", digital: "Easier fault identification" }
+                            ].map((row, idx) => (
+                                <tr key={idx} className="hover:bg-slate-50/80 transition-colors">
+                                    <td className="p-4 font-bold text-slate-900">{row.feat}</td>
+                                    <td className="p-4 font-normal text-slate-600">{row.analog}</td>
+                                    <td className="p-4 font-normal text-slate-600 bg-slate-50/50">{row.digital}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
                 </div>
             </section>
 
@@ -185,7 +210,7 @@ export default function DoubleEndedLoadCellPage() {
                 <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
                     <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-600"></div>
                     
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Datasheet</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
                     <p className="text-xs text-slate-500 mb-6">Connect with our electronic hardware engineers for detailed wiring schematics, mounting link drawings, and quotation details.</p>
                     
                     <form action="#" method="POST" className="space-y-4">

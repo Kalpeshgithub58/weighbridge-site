@@ -27,7 +27,7 @@ export default function PlatformWeighingScalesPage() {
                 Platform <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Weighing Scales</span>
             </h1>
             <p className="text-slate-400 mt-4 text-base md:text-lg max-w-3xl leading-relaxed">
-                Streamline your factory floor material logistics. Engineered with heavy structural channel under-frames and high-fidelity load cells to endure continuous forklift loading and extreme industrial impacts.
+                Designed for heavy-duty industrial and warehouse applications, our Platform Weighing Scales provide accurate, reliable, and long-lasting performance for continuous material handling and weighing operations.
             </p>
         </div>
     </header>
@@ -41,30 +41,28 @@ export default function PlatformWeighingScalesPage() {
             {/*  Section 1: Mechanical Durability & Load Safeguards  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Heavy Structural Under-Frames & Shock Isolation</h2>
-                    <p className="text-slate-500 text-sm mt-1">Rugged structural profiles calculated to prevent deck twist or bend under maximum rated load capacities.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Heavy-Duty Structure</h2>
+                    <p className="text-slate-500 text-sm mt-1">Built with strong C-channel steel frames and reinforced cross members to provide excellent strength and prevent bending or deformation under heavy loads.</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/*  Feature 1  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-layer-group text-xl"></i>
+                            <i className="fa-solid fa-shield text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Heavy Channel Base Sub-Structure</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Load Cell Protection</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Unlike cheap sheet-metal variants, our industrial platforms are built using high-thickness heavy C-channel sub-structures reinforced with robust cross-bracings. This provides an unyielding operational base, keeping zero deflection under uneven pallet loading patterns.
+                            Integrated overload protection and shock-absorbing mechanisms help protect the load cells from accidental impacts and excessive loading, increasing the life of the scale.
                         </p>
                     </div>
 
-                    {/*  Feature 2  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
-                            <i className="fa-solid fa-down-left-and-up-right-to-center text-xl"></i>
+                            <i className="fa-solid fa-braille text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Advanced Shock-Absorbing Down-Stops</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Anti-Skid Platform</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Factory floors often drop heavy scrap metal box structures directly onto platforms. Our platforms feature corner self-adjusting mechanical down-stops that block excess side-shocks and downward vertical forces, isolating high-accuracy load cells from sudden failures.
+                            The heavy-duty checker plate top provides a non-slip surface, ensuring safe loading and unloading of pallets, drums, and other heavy materials.
                         </p>
                     </div>
                 </div>
@@ -73,55 +71,65 @@ export default function PlatformWeighingScalesPage() {
             {/*  Section 2: Material Layout & Intelligent Indicators Integration  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Anti-Skid Platings & Flexible Controls Integration</h2>
-                    <p className="text-slate-500 text-sm mt-1">Legal metrology approved ready metrics integrated with high-durability hardware components.</p>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Advanced Features</h2>
+                    <p className="text-slate-500 text-sm mt-1">High-durability hardware components integrated with connectivity features.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {/*  Feature 3  */}
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-braille text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Anti-Skid Checked Top</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">The top platform surface uses high-tensile checker plate patterns to prevent commercial pallets or heavy material drums from slipping during rapid crane load placement loops.</p>
-                    </div>
-
-                    {/*  Feature 4  */}
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
                         <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-desktop text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Rugged Pole Indicator</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Includes a dedicated, high-visibility green LED/LCD indicator box housed inside a tough metal body shield. Features full tare, zero, and accumulative weighing functions.</p>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">High-Visibility Indicator</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">Supplied with a sturdy pole-mounted LED/LCD indicator featuring Zero, Tare, Accumulation, and Counting functions for easy and efficient operation.</p>
                     </div>
 
-                    {/*  Feature 5  */}
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
                         <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-network-wired text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">RS-232 System Link</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Equipped with built-in serial ports to stream stable weight logs directly to local computer networks, label printers, or central warehouse management software arrays.</p>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Computer & Printer Connectivity</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">Supports RS-232 communication for easy connection to computers, printers, and warehouse management systems for data recording and reporting.</p>
+                    </div>
+
+                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
+                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-droplet-slash text-xl"></i></div>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Sealed Junction Box</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">The high-quality IP-rated junction box protects electrical connections from dust, moisture, and harsh industrial conditions, ensuring stable and accurate weighing performance.</p>
                     </div>
                 </div>
             </section>
 
             {/*  Section 3: Operational Capacity Advantages  */}
             <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-warehouse text-amber-500 mr-2"></i>Built to Secure Rugged Warehouse Tracking Metrics</h2>
+                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-warehouse text-amber-500 mr-2"></i>Legal Metrology Approved</h2>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 gap-8">
                     <div>
                         <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> High IP-Rated Junction Protection
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Class III Accuracy Standards
                         </h4>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            Features specialized stainless steel junction signal boxes sealed to resist fine concrete dust and warehouse floor moisture. This guarantees that internal load cell signals stay 100% stable without drift or calibration drop issues over decades.
+                            Manufactured as per Class III Legal Metrology standards, making it suitable for commercial weighing applications and government verification.
                         </p>
                     </div>
-                    <div>
-                        <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Legal Metrology Approved Ready
-                        </h4>
-                        <p className="text-slate-300 text-sm leading-relaxed">
-                            Every platform unit scale architecture aligns perfectly with severe Class III commercial accuracy standards, ensuring seamless government certification inspections and full regulatory tracking compliance.
-                        </p>
-                    </div>
+                </div>
+            </section>
+
+            {/*  Applications Section  */}
+            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100 space-y-6">
+                <div className="border-l-4 border-amber-500 pl-4">
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Ideal Applications</h2>
+                    <p className="text-slate-500 text-sm mt-1">Perfectly suited for various heavy-duty industrial and commercial environments.</p>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {[
+                        "Warehouses", "Manufacturing Industries", "Logistics & Distribution Centres", "Scrap Yards",
+                        "Packaging Units", "Chemical Industries", "Food Processing Plants", "Shipping & Receiving Areas"
+                    ].map((app) => (
+                        <div key={app} className="bg-slate-50 border border-slate-200/60 rounded-xl p-4 flex items-center gap-3 hover:bg-white hover:shadow-xs transition-all">
+                            <div className="w-8 h-8 bg-amber-500/10 rounded-lg flex items-center justify-center text-amber-600">
+                                <i className="fa-solid fa-circle-check text-sm"></i>
+                            </div>
+                            <span className="font-semibold text-xs text-slate-700">{app}</span>
+                        </div>
+                    ))}
                 </div>
             </section>
 
@@ -193,7 +201,7 @@ export default function PlatformWeighingScalesPage() {
                 <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
                     <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-600"></div>
                     
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Callback</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
                     <p className="text-xs text-slate-500 mb-6">Connect with our warehouse integration experts for custom platform deck engineering profiles, network connections, and active volume quotes.</p>
                     
                     <form action="#" method="POST" className="space-y-4">

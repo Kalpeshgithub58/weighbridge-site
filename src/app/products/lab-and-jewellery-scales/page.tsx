@@ -27,7 +27,7 @@ export default function JewelleryWeighingScalesPage() {
                 Jewellery & Precision <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Scales</span>
             </h1>
             <p className="text-slate-400 mt-4 text-base md:text-lg max-w-3xl leading-relaxed">
-                Secure every single milligram of your high-value assets. Engineered with advanced multi-shield sensors to deliver rock-solid stability, lightning-fast response times, and absolute compliance for luxury retail and research labs.
+                Designed for jewellery shops, laboratories, and precision weighing applications, our Jewellery & Precision Scales deliver exceptional accuracy, fast response, and reliable performance for measuring gold, silver, gemstones, and other valuable materials.
             </p>
         </div>
     </header>
@@ -41,30 +41,28 @@ export default function JewelleryWeighingScalesPage() {
             {/*  Section 1: Core Technology & Stability  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Micro-Analytical Transducer Architecture</h2>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">High-Precision Weighing</h2>
                     <p className="text-slate-500 text-sm mt-1">Advanced precision sensor cores configured to isolate absolute weight from draft or physical vibrations.</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/*  Feature 1  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
                             <i className="fa-solid fa-wind text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Anti-Draft Glass Shield Protection</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Glass Draft Shield</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Sub-milligram gold and gemstone measurements are highly vulnerable to slight air currents and ceiling fan breeze. Our systems feature high-transparency glass draft chambers that surround the weighing pan, locking out environmental air ripples for an instant, steady weight reading.
+                            The transparent glass enclosure protects the weighing pan from air movement and external disturbances, ensuring fast and accurate measurements.
                         </p>
                     </div>
 
-                    {/*  Feature 2  */}
                     <div className="bg-white p-6 rounded-xl border border-slate-200/60 shadow-xs hover:shadow-md transition-all">
                         <div className="w-11 h-11 bg-slate-100 rounded-lg flex items-center justify-center text-slate-700 mb-4">
                             <i className="fa-solid fa-scale-balanced text-xl"></i>
                         </div>
-                        <h3 className="font-bold text-lg text-slate-900 mb-2">Internal Motorized Calibration</h3>
+                        <h3 className="font-bold text-lg text-slate-900 mb-2">Automatic Internal Calibration</h3>
                         <p className="text-slate-600 text-sm leading-relaxed">
-                            Eliminate manual external weight block processes. The integrated internal calibration system automatically runs precision self-testing loops upon temperature variation or at scheduled intervals, keeping your balance 100% accurate without downtime.
+                            The built-in calibration system automatically maintains weighing accuracy, reducing manual calibration and ensuring consistent performance.
                         </p>
                     </div>
                 </div>
@@ -73,55 +71,73 @@ export default function JewelleryWeighingScalesPage() {
             {/*  Section 2: Smart Interfacing & Compliance Controls  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Enterprise Interfacing & Legal Verifications</h2>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Interfacing & Durability</h2>
                     <p className="text-slate-500 text-sm mt-1">Government-approved metrology metrics integrated with data-rich communication ports.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {/*  Feature 3  */}
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-certificate text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Class II Verification Ready</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Fully compliant with international OIML standards and Legal Metrology guidelines. Ready for immediate stamp and verify routines for commercial retail shops.</p>
+                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-rotate text-xl"></i></div>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Multiple Weighing Units</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">Supports various weighing units, including Grams (g), Carats (ct), Tola, and Ounces (oz), making it suitable for jewellery and laboratory applications.</p>
                     </div>
 
-                    {/*  Feature 4  */}
-                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
-                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-print text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">Carat & Tola Multi-Unit</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Instantly toggle across multiple weight baselines including Grams (g), Carats (ct), Tola, and Ounces (oz) via an ultra-bright, wide-angle green LED/LCD layout screen.</p>
-                    </div>
-
-                    {/*  Feature 5  */}
                     <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
                         <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-desktop text-xl"></i></div>
-                        <h4 className="font-bold text-slate-900 mb-2 text-base">POS Billing Data Link</h4>
-                        <p className="text-slate-600 text-xs leading-relaxed">Equipped with a standard RS-232 serial connection port to feed stable weight strings directly into jewellery retail billing ERPs, removing typing mistakes completely.</p>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">RS-232 Connectivity</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">Equipped with an RS-232 communication port for easy connection to computers, POS billing systems, and printers for efficient data transfer.</p>
+                    </div>
+
+                    <div className="bg-white p-5 rounded-xl border border-slate-200/60 shadow-xs">
+                        <div className="text-amber-500 text-xl font-bold mb-3"><i className="fa-solid fa-sheet-plastic text-xl"></i></div>
+                        <h4 className="font-bold text-slate-900 mb-2 text-base">Food-Grade Stainless Steel Pan</h4>
+                        <p className="text-slate-600 text-xs leading-relaxed">The removable SUS304 stainless steel weighing pan is corrosion-resistant, easy to clean, and suitable for long-term use.</p>
                     </div>
                 </div>
             </section>
 
             {/*  Section 3: Value Added Material Advantages  */}
             <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-2xl shadow-sm border border-slate-800">
-                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-gem text-amber-500 mr-2"></i>Premium Retail Showroom & Laboratory Architecture</h2>
+                <h2 className="text-xl md:text-2xl font-bold mb-6 tracking-tight"><i className="fa-solid fa-gem text-amber-500 mr-2"></i>Transparency & Approval</h2>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Heavy Stainless Steel Pan
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Dual Display
                         </h4>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            The removable weighing platform is punched from medical-grade, corrosion-proof SUS304 stainless steel. This prevents precious metals scratching, cross-contamination, or residual material scaling on the surface over decades of continuous use.
+                            Available with an additional customer display, allowing both the operator and customer to view the weight simultaneously, ensuring complete transparency during transactions.
                         </p>
                     </div>
                     <div>
                         <h4 className="text-amber-400 font-semibold mb-2 flex items-center gap-2 text-sm uppercase tracking-wider">
-                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Dual Display Layout System
+                            <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span> Legal Metrology Approved
                         </h4>
                         <p className="text-slate-300 text-sm leading-relaxed">
-                            Includes a dedicated auxiliary pole or rear customer-facing display interface. This builds high transactional transparency and solid trust directly between the showroom operator and the luxury asset buyer.
+                            Designed as per Class II OIML and Legal Metrology standards, making it suitable for commercial jewellery weighing and laboratory applications.
                         </p>
                     </div>
+                </div>
+            </section>
+
+            {/*  Applications Section  */}
+            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100 space-y-6">
+                <div className="border-l-4 border-amber-500 pl-4">
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Ideal Applications</h2>
+                    <p className="text-slate-500 text-sm mt-1">Highly reliable precision weighing suited for premium retail and laboratory settings.</p>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {[
+                        "Jewellery Shops", "Gold & Silver Showrooms", "Diamond & Gemstone Traders", "Hallmark Centres",
+                        "Laboratories", "Research Institutes", "Pharmaceutical Industries"
+                    ].map((app) => (
+                        <div key={app} className="bg-slate-50 border border-slate-200/60 rounded-xl p-4 flex items-center gap-3 hover:bg-white hover:shadow-xs transition-all">
+                            <div className="w-8 h-8 bg-amber-500/10 rounded-lg flex items-center justify-center text-amber-600">
+                                <i className="fa-solid fa-circle-check text-sm"></i>
+                            </div>
+                            <span className="font-semibold text-xs text-slate-700">{app}</span>
+                        </div>
+                    ))}
                 </div>
             </section>
 
@@ -193,7 +209,7 @@ export default function JewelleryWeighingScalesPage() {
                 <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
                     <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-gradient-to-r from-amber-400 to-amber-600"></div>
                     
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Product Callback</h3>
+                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
                     <p className="text-xs text-slate-500 mb-6">Connect with our micro-metrology consultants for legal stamping queries, retail interface setups, and detailed bulk quotes.</p>
                     
                     <form action="#" method="POST" className="space-y-4">
