@@ -61,7 +61,7 @@ export const products = [
     category: 'Commercial/Industrial Scales',
     description: 'Accurate Table Top Scales | Fast Weighing for Shops and Industries.',
     icon: ShoppingCart,
-    image: '/images/IMG_4324.PNG',
+    image: '/images/table_top_scale.png',
     longDescription: 'Speed up your shop billing and light packing work with our very fast and accurate Table Top weighing scales.',
     features: [],
     specifications: []
@@ -72,7 +72,7 @@ export const products = [
     category: 'Commercial/Industrial Scales',
     description: 'Strong Industrial Platform Scales | Made for Rough Factory Use.',
     icon: Package,
-    image: '/images/IMG_4329.PNG',
+    image: '/images/platform_scale.png',
     longDescription: 'Made especially for tough factory conditions, our platform scales give perfect accuracy even with heavy loading and rough handling.',
     features: [],
     specifications: []
@@ -95,7 +95,7 @@ export const products = [
     category: 'Commercial/Industrial Scales',
     description: 'Heavy-Duty Hanging Crane Scales | Safe and accurate lifting weights.',
     icon: Wrench,
-    image: '/images/IMG_4331.PNG',
+    image: '/images/crane_scale.png',
     longDescription: 'Perfect for heavy industrial lifting and weighing at the same time. Strong, safe, and highly accurate crane scales for factories and warehouses.',
     features: [],
     specifications: []
@@ -107,7 +107,7 @@ export const products = [
     category: 'Lab Scales',
     description: 'Highly Accurate Jewellery Balances | Perfect for Gold & Diamonds.',
     icon: Activity,
-    image: '/images/IMG_4325.PNG',
+    image: '/images/lab_scale.png',
     longDescription: 'Our laboratory and jewellery scales give perfect accuracy down to the milligram for highly valuable items.',
     features: [],
     specifications: []
@@ -118,7 +118,7 @@ export const products = [
     category: 'Load Cells',
     description: 'Heavy-Duty Compression Load Cells | Strong Sensors for Silos & Weighbridges.',
     icon: Wrench,
-    image: '/images/IMG_4335.JPG',
+    image: '/images/compression_load_cell.jpg',
     longDescription: 'Made for the toughest industrial work, our Compression Load Cells are the best choice for heavy weighbridges and huge storage silos.',
     features: [],
     specifications: []
@@ -129,7 +129,7 @@ export const products = [
     category: 'Load Cells',
     description: 'Accurate Double Ended Shear Beam Load Cells | For Medium and Heavy use.',
     icon: Settings,
-    image: '/images/IMG_4334.JPG',
+    image: '/images/double_ended_load_cell.jpg',
     longDescription: 'The Double Ended Shear Beam load cell is the most trusted sensor for heavy industrial scales because it handles side-shocks very well.',
     features: [],
     specifications: []
