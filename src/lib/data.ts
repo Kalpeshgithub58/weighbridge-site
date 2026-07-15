@@ -28,7 +28,7 @@ export const products = [
     category: 'Heavy Weighbridges',
     description: 'Above-ground weighbridge. Best for areas with high water levels or hard rocky ground.',
     icon: Truck,
-    image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80',
+    image: '/images/pitless_weighbridge.jpg',
     longDescription: 'Our Pitless Weighbridges are fitted above the ground, which means you do not need to dig a deep pit. Very easy to clean and maintain.',
     features: ['No deep digging required'],
     specifications: []
@@ -39,7 +39,7 @@ export const products = [
     category: 'Heavy Weighbridges',
     description: 'Ground-level weighbridge that saves space and allows easy truck turning.',
     icon: Truck,
-    image: 'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=800&q=80',
+    image: '/images/pit_type_weighbridge.jpg',
     longDescription: 'Pit Type Weighbridges are installed exactly at ground level. This is perfect if you have less space, as vehicles can easily drive over it from any side.',
     features: [],
     specifications: []
@@ -83,7 +83,7 @@ export const products = [
     category: 'Commercial/Industrial Scales',
     description: 'Live Inventory & Mixing Automation for raw materials.',
     icon: Factory,
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    image: '/images/hopper_silo.jpg',
     longDescription: 'Turn any simple hopper, tank, or silo into a highly accurate digital scale for easy mixing and stock checking.',
     features: [],
     specifications: []
@@ -152,43 +152,43 @@ export const industries = [
     title: "Logistics & Transport",
     description: "Weighbridges for trucks and heavy transport — built for daily rough use.",
     icon: Truck,
-    image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80",
+    image: "/images/logistics_transport.jpg",
   },
   {
     title: "Farming & Mandis",
     description: "Fast and exact weighing for grains and crops — perfect for busy APMC mandis.",
     icon: Wheat,
-    image: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=800&q=80",
+    image: "/images/farming_mandis.jpg",
   },
   {
     title: "Building & Cement",
     description: "Strong weighing systems for raw materials, stones, and cement loading.",
     icon: HardHat,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    image: "/images/building_cement.jpg",
   },
   {
     title: "Mining & Stone Crushers",
     description: "Heavy-duty weighbridges made to easily handle dust, shocks, and non-stop work.",
     icon: Pickaxe,
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    image: "/images/mining_crushers.jpg",
   },
   {
     title: "Factories & Steel",
     description: "Check your incoming raw materials and outgoing products right at your factory gate.",
     icon: Factory,
-    image: "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=800&q=80",
+    image: "/images/factories_steel.jpg",
   },
   {
     title: "Medicines & Labs",
     description: "Very highly accurate lab scales for checking chemical and medicine weights.",
     icon: Pill,
-    image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=800&q=80",
+    image: "/images/medicines_labs.jpg",
   },
   {
     title: "Shops & Trading",
     description: "Govt-approved commercial scales for shops, wholesale markets, and billing counters.",
     icon: ShoppingCart,
-    image: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=800&q=80",
+    image: "/images/shops_trading.jpg",
   },
   {
     title: "Godowns & Warehouses",
@@ -200,13 +200,13 @@ export const industries = [
     title: "Food Packing",
     description: "Clean and exact scales for food items and packaged goods checking.",
     icon: Utensils,
-    image: "https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?auto=format&fit=crop&w=800&q=80",
+    image: "/images/food_packing.jpg",
   },
   {
     title: "Scrap & Waste",
     description: "Heavy weighbridges for scrap metal, plastic waste, and recycling trades.",
     icon: Recycle,
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80",
+    image: "/images/scrap_waste.jpg",
   },
 ];
 
