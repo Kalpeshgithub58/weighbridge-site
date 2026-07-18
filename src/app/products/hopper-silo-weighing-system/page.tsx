@@ -141,56 +141,7 @@ export default function HopperSiloWeighingSystemPage() {
                 </div>
             </section>
 
-            {/*  Section 4: Version Configuration Table  */}
-            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
-                <div className="border-l-4 border-amber-500 pl-4 mb-6">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">System Capacities & Hardware Layouts</h2>
-                    <p className="text-slate-500 text-sm mt-1">Select the optimal structural kit format configured for your process silo baseline weights.</p>
-                </div>
-                
-                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
-                    <table className="w-full text-left border-collapse">
-                        <thead>
-                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
-                                <th className="p-4 rounded-tl-xl">Target Tank Capacity</th>
-                                <th className="p-4 text-center">Compatible Sensor Type</th>
-                                <th className="p-4 text-center">System Resolution</th>
-                                <th className="p-4 text-center">Mounting Kit Material</th>
-                                <th className="p-4 text-center rounded-tr-xl">Ingress Protection</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">0.5 Ton to 5 Ton</td>
-                                <td className="p-4 text-center text-slate-600">Single-Ended / Shear Beam</td>
-                                <td className="p-4 text-center text-slate-500">200g - 500g</td>
-                                <td className="p-4 text-center text-slate-600">Plated Alloy Steel / Stainless Steel</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">IP67 / IP68</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">5 Ton to 30 Ton</td>
-                                <td className="p-4 text-center text-slate-600">Double-Ended Shear Beam</td>
-                                <td className="p-4 text-center text-slate-500">1kg - 2kg</td>
-                                <td className="p-4 text-center text-slate-600">Heavy Duty Powder Coated MS Frame</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">Hermetic IP68</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">30 Ton to 200 Ton +</td>
-                                <td className="p-4 text-center text-slate-600">High-Capacity Compression Column</td>
-                                <td className="p-4 text-center text-slate-500">5kg - 10kg</td>
-                                <td className="p-4 text-center text-slate-600">Ultra-Rigid Structural Tool Steel</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">Laser Welded IP69K</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                {/*  Fine Print Disclaimer Policy  */}
-                <div className="mt-4 flex items-center gap-2 text-[11px] text-slate-400 italic">
-                    <i className="fa-solid fa-circle-info text-amber-500/80"></i>
-                    <span>System calibration can be handled via standard dead-weight methods or fluid material mass transfer simulations during commissioning loops.</span>
-                </div>
-            </section>
+
 
         </div>
 

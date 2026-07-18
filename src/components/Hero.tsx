@@ -11,7 +11,7 @@ export default function Hero() {
           src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/hero_weighing_suite.png`}
           alt="Weighing Industry background"
           fill
-          className="object-cover object-right-bottom"
+          className="object-cover object-right-bottom !top-[30px]"
           unoptimized
           priority
         />

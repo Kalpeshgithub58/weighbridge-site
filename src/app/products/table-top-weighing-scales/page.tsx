@@ -141,63 +141,7 @@ export default function TableTopWeighingScalesPage() {
                 </div>
             </section>
 
-            {/*  Section 4: Specifications & Dimensions Table  */}
-            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
-                <div className="border-l-4 border-amber-500 pl-4 mb-6">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Standard Commercial Scale Variants</h2>
-                    <p className="text-slate-500 text-sm mt-1">Select the optimal platform size and tracking graduation tailored for your store inventory profiles.</p>
-                </div>
-                
-                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
-                    <table className="w-full text-left border-collapse">
-                        <thead>
-                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
-                                <th className="p-4 rounded-tl-xl">Model Reference</th>
-                                <th className="p-4 text-center">Maximum Capacity</th>
-                                <th className="p-4 text-center">Readability / Resolution</th>
-                                <th className="p-4 text-center">Standard Pan Dimensions</th>
-                                <th className="p-4 text-center rounded-tr-xl">Battery Backup Included</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MTS-10R</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">10 kg</td>
-                                <td className="p-4 text-center text-slate-500">1 g</td>
-                                <td className="p-4 text-center text-slate-600">250 mm x 300 mm</td>
-                                <td className="p-4 text-center text-emerald-600 font-bold bg-slate-50/50"><i className="fa-solid fa-circle-check"></i> Built-in 6V/4.5Ah</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MTS-20R</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">20 kg</td>
-                                <td className="p-4 text-center text-slate-500">2 g</td>
-                                <td className="p-4 text-center text-slate-600">250 mm x 300 mm</td>
-                                <td className="p-4 text-center text-emerald-600 font-bold bg-slate-50/50"><i className="fa-solid fa-circle-check"></i> Built-in 6V/4.5Ah</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MTS-30R</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">30 kg</td>
-                                <td className="p-4 text-center text-slate-500">2 g / 5 g</td>
-                                <td className="p-4 text-center text-slate-600">250 mm x 300 mm</td>
-                                <td className="p-4 text-center text-emerald-600 font-bold bg-slate-50/50"><i className="fa-solid fa-circle-check"></i> Built-in 6V/4.5Ah</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MTS-40R</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">40 kg</td>
-                                <td className="p-4 text-center text-slate-500">5 g</td>
-                                <td className="p-4 text-center text-slate-600">250 mm x 300 mm</td>
-                                <td className="p-4 text-center text-emerald-600 font-bold bg-slate-50/50"><i className="fa-solid fa-circle-check"></i> Built-in 6V/4.5Ah</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                {/*  Fine Print Disclaimer Policy  */}
-                <div className="mt-4 flex items-center gap-2 text-[11px] text-slate-400 italic">
-                    <i className="fa-solid fa-circle-info text-amber-500/80"></i>
-                    <span>All commercial counter balances come with an active internal transformer module supporting wide 150V-270V AC input operations.</span>
-                </div>
-            </section>
+
 
         </div>
 

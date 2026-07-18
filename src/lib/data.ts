@@ -50,8 +50,19 @@ export const products = [
     category: 'Heavy Weighbridges',
     description: 'Strong Modular Weighbridge | Bolt-On sections for easy transport and fitting.',
     icon: Truck,
-    image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80',
+    image: '/images/modular_weighbridge.jpg',
     longDescription: 'Make transport and installation very fast with our strong bolt-on Modular weighing systems.',
+    features: [],
+    specifications: []
+  },
+  {
+    title: 'Hopper Silo Weighing System',
+    slug: 'hopper-silo-weighing-system',
+    category: 'Commercial/Industrial Scales',
+    description: 'Live Inventory & Mixing Automation for raw materials.',
+    icon: Factory,
+    image: '/images/hopper_silo.jpg',
+    longDescription: 'Turn any simple hopper, tank, or silo into a highly accurate digital scale for easy mixing and stock checking.',
     features: [],
     specifications: []
   },
@@ -74,17 +85,6 @@ export const products = [
     icon: Package,
     image: '/images/platform_scale.png',
     longDescription: 'Made especially for tough factory conditions, our platform scales give perfect accuracy even with heavy loading and rough handling.',
-    features: [],
-    specifications: []
-  },
-  {
-    title: 'Hopper Silo Weighing System',
-    slug: 'hopper-silo-weighing-system',
-    category: 'Commercial/Industrial Scales',
-    description: 'Live Inventory & Mixing Automation for raw materials.',
-    icon: Factory,
-    image: '/images/hopper_silo.jpg',
-    longDescription: 'Turn any simple hopper, tank, or silo into a highly accurate digital scale for easy mixing and stock checking.',
     features: [],
     specifications: []
   },
@@ -124,7 +124,7 @@ export const products = [
     specifications: []
   },
   {
-    title: 'Double Ended Load Cell',
+    title: 'Double Ended Shear Beam Load Cell',
     slug: 'double-ended-load-cell',
     category: 'Load Cells',
     description: 'Accurate Double Ended Shear Beam Load Cells | For Medium and Heavy use.',

@@ -142,70 +142,7 @@ export default function CompressionLoadCellPage() {
                 </div>
             </section>
 
-            {/*  Section 4: Specifications Table  */}
-            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
-                <div className="border-l-4 border-amber-500 pl-4 mb-6">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Standard Capacity & Operational Limits</h2>
-                    <p className="text-slate-500 text-sm mt-1">Select the ideal compression sensor metrics for heavy manufacturing structures and hoppers.</p>
-                </div>
-                
-                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
-                    <table className="w-full text-left border-collapse">
-                        <thead>
-                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
-                                <th className="p-4 rounded-tl-xl">Rated System Range</th>
-                                <th className="p-4 text-center">Combined Hysteresis Error</th>
-                                <th className="p-4 text-center">Bridge Impedance</th>
-                                <th className="p-4 text-center">Ultimate Structural Safety</th>
-                                <th className="p-4 text-center rounded-tr-xl">Enclosure Rating</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">10 Ton (10,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.023% FS</td>
-                                <td className="p-4 text-center text-slate-500">700Ω ± 7Ω Baseline</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">200% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">Hermetic IP68</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">20 Ton (20,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.023% FS</td>
-                                <td className="p-4 text-center text-slate-500">700Ω ± 7Ω Baseline</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">200% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">Hermetic IP68</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">30 Ton (30,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.025% FS</td>
-                                <td className="p-4 text-center text-slate-500">700Ω ± 7Ω Baseline</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">200% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">Hermetic IP68</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">40 Ton (40,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.025% FS</td>
-                                <td className="p-4 text-center text-slate-500">700Ω ± 7Ω Baseline</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">200% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">Hermetic IP68</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">50 Ton (50,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.030% FS</td>
-                                <td className="p-4 text-center text-slate-500">700Ω ± 7Ω Baseline</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">200% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">Hermetic IP68</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                {/*  Fine Print Disclaimer Policy  */}
-                <div className="mt-4 flex items-center gap-2 text-[11px] text-slate-400 italic">
-                    <i className="fa-solid fa-circle-info text-amber-500/80"></i>
-                    <span>All compression metrics align perfectly with global standard weighing tolerances.</span>
-                </div>
-            </section>
+
 
         </div>
 

@@ -117,67 +117,70 @@ export default function PitlessWeighbridgePage() {
                         </thead>
                         <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
                             <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">5 Ton (5,000 kg)</td>
-                                <td className="p-4 text-center text-slate-500">1 kg</td>
-                                <td className="p-4 font-normal text-slate-600">3.0m x 2.0m &nbsp;|&nbsp; 4.25m x 2.15m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">10 Ton (10,000 kg)</td>
-                                <td className="p-4 text-center text-slate-500">1 / 2 kg</td>
-                                <td className="p-4 font-normal text-slate-600">4.25m x 2.15m &nbsp;|&nbsp; 5.0m x 2.5m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">20 Ton (20,000 kg)</td>
+                                <td className="p-4 text-center text-amber-600 font-semibold">20 Ton</td>
                                 <td className="p-4 text-center text-slate-500">2 kg</td>
-                                <td className="p-4 font-normal text-slate-600">6.0m x 2.5m &nbsp;|&nbsp; 7.0m x 3.0m</td>
+                                <td className="p-4 font-normal text-slate-600">6.0m x 2.5m</td>
                                 <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                             </tr>
                             <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">30 Ton (30,000 kg)</td>
+                                <td className="p-4 text-center text-amber-600 font-semibold">30 Ton</td>
                                 <td className="p-4 text-center text-slate-500">5 kg</td>
-                                <td className="p-4 font-normal text-slate-600">6.75m x 3.0m &nbsp;|&nbsp; 7.5m x 3.0m</td>
+                                <td className="p-4 font-normal text-slate-600">7.0m x 3.0m</td>
                                 <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                             </tr>
                             <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">40 Ton (40,000 kg)</td>
+                                <td className="p-4 text-center text-amber-600 font-semibold">40 / 50 Ton</td>
                                 <td className="p-4 text-center text-slate-500">5 kg</td>
-                                <td className="p-4 font-normal text-slate-600">7.5m x 3.0m &nbsp;|&nbsp; 9.0m x 3.0m</td>
+                                <td className="p-4 font-normal text-slate-600">7.5m x 3.0m</td>
                                 <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 Nos.</td>
                             </tr>
                             <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">50 Ton (50,000 kg)</td>
+                                <td className="p-4 text-center text-amber-600 font-semibold">40 / 50 Ton</td>
                                 <td className="p-4 text-center text-slate-500">5 kg</td>
-                                <td className="p-4 font-normal text-slate-600">7.5m x 3.0m &nbsp;|&nbsp; 9.0m x 3.0m &nbsp;|&nbsp; 12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 / 6 / 8 Nos.</td>
+                                <td className="p-4 font-normal text-slate-600">9.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 / 6 Nos.</td>
                             </tr>
                             <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">60 Ton (60,000 kg)</td>
-                                <td className="p-4 text-center text-slate-500">10 kg</td>
-                                <td className="p-4 font-normal text-slate-600">7.5m x 3.0m &nbsp;|&nbsp; 9.0m x 3.0m &nbsp;|&nbsp; 12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m &nbsp;|&nbsp; 16.0m x 3.0m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 / 6 / 8 Nos.</td>
+                                <td className="p-4 text-center text-amber-600 font-semibold">40 / 50 Ton</td>
+                                <td className="p-4 text-center text-slate-500">5 kg</td>
+                                <td className="p-4 font-normal text-slate-600">10.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 / 6 Nos.</td>
                             </tr>
                             <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">80 Ton (80,000 kg)</td>
+                                <td className="p-4 text-center text-amber-600 font-semibold">50 / 60 Ton</td>
                                 <td className="p-4 text-center text-slate-500">10 kg</td>
-                                <td className="p-4 font-normal text-slate-600">9.0m x 3.0m &nbsp;|&nbsp; 12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m &nbsp;|&nbsp; 16.0m x 3.0m &nbsp;|&nbsp; 18.0m x 3.0m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">6 / 8 / 10 Nos.</td>
+                                <td className="p-4 font-normal text-slate-600">12.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">6 Nos.</td>
                             </tr>
                             <tr className="hover:bg-slate-50/80 transition-colors">
-                                
-                                <td className="p-4 text-center text-amber-600 font-semibold">100 Ton (100,000 kg)</td>
+                                <td className="p-4 text-center text-amber-600 font-semibold">50 / 60 Ton</td>
                                 <td className="p-4 text-center text-slate-500">10 kg</td>
-                                <td className="p-4 font-normal text-slate-600">12.0m x 3.0m &nbsp;|&nbsp; 15.0m x 3.0m &nbsp;|&nbsp; 16.0m x 3.0m &nbsp;|&nbsp; 18.0m x 3.0m &nbsp;|&nbsp; 20.0m x 3.0m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">6 / 8 / 10 Nos.</td>
+                                <td className="p-4 font-normal text-slate-600">14.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">6 Nos.</td>
+                            </tr>
+                            <tr className="hover:bg-slate-50/80 transition-colors">
+                                <td className="p-4 text-center text-amber-600 font-semibold">50 / 60 Ton</td>
+                                <td className="p-4 text-center text-slate-500">10 kg</td>
+                                <td className="p-4 font-normal text-slate-600">15.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">6 / 8 Nos.</td>
+                            </tr>
+                            <tr className="hover:bg-slate-50/80 transition-colors">
+                                <td className="p-4 text-center text-amber-600 font-semibold">60 / 80 Ton</td>
+                                <td className="p-4 text-center text-slate-500">10 kg</td>
+                                <td className="p-4 font-normal text-slate-600">16.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">6 / 8 Nos.</td>
+                            </tr>
+                            <tr className="hover:bg-slate-50/80 transition-colors">
+                                <td className="p-4 text-center text-amber-600 font-semibold">60 / 80 / 100 Ton</td>
+                                <td className="p-4 text-center text-slate-500">10 kg / 20 kg</td>
+                                <td className="p-4 font-normal text-slate-600">18.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">8 Nos.</td>
+                            </tr>
+                            <tr className="hover:bg-slate-50/80 transition-colors">
+                                <td className="p-4 text-center text-amber-600 font-semibold">80 / 100 Ton</td>
+                                <td className="p-4 text-center text-slate-500">10 kg / 20 kg</td>
+                                <td className="p-4 font-normal text-slate-600">20.0m x 3.0m</td>
+                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">8 Nos.</td>
                             </tr>
                         </tbody>
                     </table>

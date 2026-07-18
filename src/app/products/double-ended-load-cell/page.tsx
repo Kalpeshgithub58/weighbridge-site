@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 
-export default function DoubleEndedLoadCellPage() {
+export default function DoubleEndedShearBeamLoadCellPage() {
   return (
     <div className="pt-[72px] bg-slate-50 text-slate-800 antialiased min-h-screen">
       {/* Breadcrumb */}
@@ -12,7 +12,7 @@ export default function DoubleEndedLoadCellPage() {
           <ChevronRight className="w-4 h-4" />
           <Link href="/#products" className="hover:text-amber-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4" />
-          <span className="text-slate-900">Double Ended Load Cell</span>
+          <span className="text-slate-900">Double Ended Shear Beam Load Cell</span>
         </div>
       </div>
 
@@ -23,7 +23,7 @@ export default function DoubleEndedLoadCellPage() {
         <div className="max-w-7xl mx-auto relative z-10">
             <span className="text-amber-500 font-bold tracking-widest text-xs uppercase bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">Metrological Core Technology</span>
             <h1 className="text-3xl md:text-5xl font-extrabold mt-4 tracking-tight leading-tight">
-                Double-Ended <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Load Cell</span>
+                Double-Ended Shear Beam <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Load Cell</span>
             </h1>
             <p className="text-slate-400 mt-4 text-base md:text-lg max-w-3xl leading-relaxed">
                 Experience zero-compromise accuracy with our premium high-capacity Double-Ended Shear Beam Load Cells. Specifically built for high-tonnage heavy industrial applications, providing superior resistance against harsh side-thrust forces.
@@ -35,10 +35,10 @@ export default function DoubleEndedLoadCellPage() {
         
         <div className="lg:col-span-2 space-y-12">
             
-            {/*  Section 1: Types of Double-Ended Load Cells  */}
+            {/*  Section 1: Types of Double-Ended Shear Beam Load Cells  */}
             <section className="space-y-6">
                 <div className="border-l-4 border-amber-500 pl-4">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Types of Double-Ended Load Cells</h2>
+                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Types of Double-Ended Shear Beam Load Cells</h2>
                     <p className="text-slate-500 text-sm mt-1">Choose between robust analog and precision digital double-ended load cells.</p>
                 </div>
                 
@@ -139,68 +139,7 @@ export default function DoubleEndedLoadCellPage() {
                 </div>
             </section>
 
-            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
-                <div className="border-l-4 border-amber-500 pl-4 mb-6">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Standard Capacity & Metrological Metrics</h2>
-                    <p className="text-slate-500 text-sm mt-1">Select the optimal load cell range for custom weighbridge fabrication and industrial scales.</p>
-                </div>
-                
-                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
-                    <table className="w-full text-left border-collapse">
-                        <thead>
-                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
-                                <th className="p-4 rounded-tl-xl">Rated Capacity per Cell</th>
-                                <th className="p-4 text-center">Combined Error (%FS)</th>
-                                <th className="p-4 text-center">Excitation Voltage</th>
-                                <th className="p-4 text-center">Safe Overload Margin</th>
-                                <th className="p-4 text-center rounded-tr-xl">Ingress Protection</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">10 Ton (10,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.020%</td>
-                                <td className="p-4 text-center text-slate-500">5 ~ 12 V DC (Max 15V)</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">150% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">IP68 / IP69K</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">20 Ton (20,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.020%</td>
-                                <td className="p-4 text-center text-slate-500">5 ~ 12 V DC (Max 15V)</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">150% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">IP68 / IP69K</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">30 Ton (30,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.025%</td>
-                                <td className="p-4 text-center text-slate-500">5 ~ 12 V DC (Max 15V)</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">150% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">IP68 / IP69K</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">40 Ton (40,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.025%</td>
-                                <td className="p-4 text-center text-slate-500">5 ~ 12 V DC (Max 15V)</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">150% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">IP68 / IP69K</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">50 Ton (50,000 kg)</td>
-                                <td className="p-4 text-center text-slate-600">≤ ±0.030%</td>
-                                <td className="p-4 text-center text-slate-500">5 ~ 12 V DC (Max 15V)</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">150% FS</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">IP68 / IP69K</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div className="mt-4 flex items-center gap-2 text-[11px] text-slate-400 italic">
-                    <i className="fa-solid fa-circle-info text-amber-500/80"></i>
-                    <span>Calibration metrics and electrical output ratings match industrial standard high-capacity OIML baselines.</span>
-                </div>
-            </section>
+
 
         </div>
 

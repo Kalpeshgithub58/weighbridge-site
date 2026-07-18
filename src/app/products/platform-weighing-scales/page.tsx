@@ -133,63 +133,7 @@ export default function PlatformWeighingScalesPage() {
                 </div>
             </section>
 
-            {/*  Section 4: Specifications & Configuration Matrix Table  */}
-            <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-gray-100">
-                <div className="border-l-4 border-amber-500 pl-4 mb-6">
-                    <h2 className="text-2xl font-bold text-slate-900 tracking-tight">Standard Industrial Platform Models</h2>
-                    <p className="text-slate-500 text-sm mt-1">Select the optimal platform footprint size and resolution configuration matched for your production layouts.</p>
-                </div>
-                
-                <div className="overflow-x-auto rounded-xl border border-slate-200/80 shadow-xs">
-                    <table className="w-full text-left border-collapse">
-                        <thead>
-                            <tr className="bg-slate-900 text-white font-semibold text-xs tracking-wider uppercase">
-                                <th className="p-4 rounded-tl-xl">Model Number</th>
-                                <th className="p-4 text-center">Maximum Capacity</th>
-                                <th className="p-4 text-center">Readability / Graduation</th>
-                                <th className="p-4 text-center">Standard Deck Footprint Size</th>
-                                <th className="p-4 text-center rounded-tr-xl">Load Cell Core Format</th>
-                            </tr>
-                        </thead>
-                        <tbody className="divide-y divide-slate-100 text-sm font-medium text-slate-700 bg-white">
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MPS-100W</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">100 kg</td>
-                                <td className="p-4 text-center text-slate-500">10 g</td>
-                                <td className="p-4 text-center text-slate-600">400 mm x 400 mm &nbsp;|&nbsp; 500 mm x 500 mm</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">High Precision Single Point</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MPS-500W</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">500 kg</td>
-                                <td className="p-4 text-center text-slate-500">50 g</td>
-                                <td className="p-4 text-center text-slate-600">600 mm x 600 mm &nbsp;|&nbsp; 750 mm x 750 mm</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">High Precision Single Point</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MPS-1000W</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">1 Ton (1,000 kg)</td>
-                                <td className="p-4 text-center text-slate-500">100 g</td>
-                                <td className="p-4 text-center text-slate-600">1.0m x 1.0m &nbsp;|&nbsp; 1.2m x 1.2m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 x Shear Beam Load Cells Array</td>
-                            </tr>
-                            <tr className="hover:bg-slate-50/80 transition-colors">
-                                <td className="p-4 font-bold text-slate-900">MPS-5000W</td>
-                                <td className="p-4 text-center text-amber-600 font-semibold">5 Ton (5,000 kg)</td>
-                                <td className="p-4 text-center text-slate-500">500 g</td>
-                                <td className="p-4 text-center text-slate-600">1.2m x 1.2m &nbsp;|&nbsp; 1.5m x 1.5m &nbsp;|&nbsp; 2.0m x 2.0m</td>
-                                <td className="p-4 text-center text-slate-900 font-semibold bg-slate-50/50">4 x Shear Beam Load Cells Array</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                {/*  Fine Print Disclaimer Policy  */}
-                <div className="mt-4 flex items-center gap-2 text-[11px] text-slate-400 italic">
-                    <i className="fa-solid fa-circle-info text-amber-500/80"></i>
-                    <span>Custom industrial sizes and higher structural capacities (up to 10 Tons) are fully available through customized tool steel fabrication channels.</span>
-                </div>
-            </section>
+
 
         </div>
 
