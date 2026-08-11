@@ -61,7 +61,7 @@ export default function Products() {
                       src={product.image.startsWith('/') ? `${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}${product.image}` : product.image}
                       alt={product.title}
                       fill
-                      className={product.image.endsWith('.png') ? "object-contain p-4 bg-white" : "object-cover"}
+                      className={(product.image.endsWith('.png') || product.image.includes('platform_scale')) ? "object-contain p-4 bg-white" : "object-cover"}
                       unoptimized
                       priority={index < 4}
                     />
@@ -93,7 +93,7 @@ export default function Products() {
                       src={product.image.startsWith('/') ? `${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}${product.image}` : product.image}
                       alt={product.title}
                       fill
-                      className={product.image.endsWith('.png') ? "object-contain p-4 bg-white group-hover:scale-105 transition-transform duration-700" : "object-cover group-hover:scale-105 transition-transform duration-700"}
+                      className={(product.image.endsWith('.png') || product.image.includes('platform_scale')) ? "object-contain p-4 bg-white group-hover:scale-105 transition-transform duration-700" : "object-cover group-hover:scale-105 transition-transform duration-700"}
                       unoptimized
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

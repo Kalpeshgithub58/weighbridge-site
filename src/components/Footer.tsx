@@ -1,5 +1,6 @@
 import { siteConfig } from "@/lib/config";
 import { Phone, MapPin, Mail } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,13 +12,14 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-6">
             <div className="flex items-center gap-2.5">
-              <div className="w-10 h-10 bg-brand-blue rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
-              </div>
-              <div>
-                <div className="text-white font-bold text-lg tracking-wide">
-                  Aveera <span className="text-brand-blue">Scales</span>
-                </div>
+              <div className="relative h-12 w-44">
+                <Image
+                  src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/logo_horizontal_v2.jpg`}
+                  alt="Aveera Scales Logo"
+                  fill
+                  className="object-contain object-left"
+                  unoptimized
+                />
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">

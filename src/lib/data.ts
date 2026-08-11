@@ -83,7 +83,7 @@ export const products = [
     category: 'Commercial/Industrial Scales',
     description: 'Strong Industrial Platform Scales | Made for Rough Factory Use.',
     icon: Package,
-    image: '/images/platform_scale.png',
+    image: '/images/platform_scale.jpg',
     longDescription: 'Made especially for tough factory conditions, our platform scales give perfect accuracy even with heavy loading and rough handling.',
     features: [],
     specifications: []
@@ -140,7 +140,7 @@ export const products = [
     category: 'Software',
     description: 'Smart CCTV & Boom Barrier Software | Stops Theft and Saves Time.',
     icon: ShieldCheck,
-    image: 'https://images.unsplash.com/photo-1555861496-0666c8981751?auto=format&fit=crop&w=800&q=80',
+    image: '/images/weighbridge_software.jpg',
     longDescription: 'Make your weighing fully secure and fraud-proof. Our smart software connects the live weight with cameras and boom barriers to stop all cheating and theft.',
     features: [],
     specifications: []

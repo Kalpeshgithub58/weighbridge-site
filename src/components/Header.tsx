@@ -5,6 +5,7 @@ import { Phone, Menu, X, ChevronDown } from "lucide-react";
 import { siteConfig, links } from "@/lib/config";
 import { products } from "@/lib/data";
 import Link from "next/link";
+import Image from "next/image";
 
 // Group products by category
 const groupedProducts = products.reduce((acc, product) => {
@@ -46,13 +47,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 sm:h-[72px]">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
-            <div className="w-10 h-10 bg-brand-blue rounded-lg flex items-center justify-center shadow-md">
-              <span className="text-white font-bold text-xl">A</span>
-            </div>
-            <div className="leading-tight">
-              <div className="text-gray-900 font-bold text-lg sm:text-xl tracking-wide">
-                Aveera <span className="text-brand-blue">Scales</span>
-              </div>
+            <div className="relative h-12 w-44">
+              <Image
+                src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/logo_horizontal_v2.jpg`}
+                alt="Aveera Scales Logo"
+                fill
+                className="object-contain"
+                unoptimized
+                priority
+              />
             </div>
           </Link>
 
