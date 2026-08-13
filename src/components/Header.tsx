@@ -35,6 +35,7 @@ export default function Header() {
   const pathname = usePathname();
 
   useEffect(() => {
+    // 1. Handle scroll-to-hash on page mount or pathname transition (cross-page routing)
     const handleScroll = () => {
       const hash = window.location.hash;
       if (hash) {
@@ -49,8 +50,33 @@ export default function Header() {
     };
 
     handleScroll();
-    window.addEventListener("hashchange", handleScroll);
-    return () => window.removeEventListener("hashchange", handleScroll);
+
+    // 2. Intercept same-page hash link clicks and scroll manually
+    const handleDocumentClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      const anchor = target.closest("a");
+      if (anchor && anchor.hash) {
+        const targetPath = anchor.pathname.replace(/\/$/, "");
+        const currentPath = window.location.pathname.replace(/\/$/, "");
+        
+        // Check if we are on the same page
+        if (targetPath === currentPath) {
+          const id = anchor.hash.replace("#", "");
+          const element = document.getElementById(id);
+          if (element) {
+            e.preventDefault();
+            element.scrollIntoView({ behavior: "smooth" });
+            window.history.pushState(null, "", anchor.hash);
+            setMobileMenuOpen(false);
+          }
+        }
+      }
+    };
+
+    document.addEventListener("click", handleDocumentClick);
+    return () => {
+      document.removeEventListener("click", handleDocumentClick);
+    };
   }, [pathname]);
 
   useEffect(() => {
