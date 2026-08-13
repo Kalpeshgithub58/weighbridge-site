@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Full Screen Background Image */}
       <div className="absolute inset-0 z-0 opacity-85 select-none pointer-events-none">
         <Image
-          src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/hero_weighing_suite.png`}
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/hero_weighing_suite.png`}
           alt="Weighing Industry background"
           fill
           className="object-cover object-right-bottom !top-[30px]"
@@ -55,7 +55,7 @@ export default function Hero() {
         {/* <div className="relative mt-8 lg:mt-0 hidden md:block">
           <div className="relative bg-white/5 border border-white/10 rounded-2xl h-80 lg:h-[450px] flex items-center justify-center shadow-2xl overflow-hidden backdrop-blur-md group">
             <Image
-              src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/platform.png`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/platform.png`}
               alt="High-Res Scale Installation"
               fill
               className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"

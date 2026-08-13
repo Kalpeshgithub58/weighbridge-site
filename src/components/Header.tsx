@@ -6,6 +6,7 @@ import { siteConfig, links } from "@/lib/config";
 import { products } from "@/lib/data";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 // Group products by category
 const groupedProducts = products.reduce((acc, product) => {
@@ -17,18 +18,40 @@ const groupedProducts = products.reduce((acc, product) => {
   return acc;
 }, {} as Record<string, typeof products>);
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const navLinks = [
-  { label: "Industries", href: "/#industries" },
-  { label: "Software & Services", href: "/services" },
+  { label: "Industries", href: `${basePath}/#industries` },
+  { label: "Software & Services", href: `${basePath}/services` },
   // { label: "Technical Updates", href: "/updates" },
-  { label: "About us", href: "/#about" },
-  { label: "Contact & Support", href: "/#contact" },
+  { label: "About us", href: `${basePath}/#about` },
+  { label: "Contact & Support", href: `${basePath}/#contact` },
 ];
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [productsOpenMobile, setProductsOpenMobile] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const id = hash.replace("#", "");
+        const element = document.getElementById(id);
+        if (element) {
+          setTimeout(() => {
+            element.scrollIntoView({ behavior: "smooth" });
+          }, 150);
+        }
+      }
+    };
+
+    handleScroll();
+    window.addEventListener("hashchange", handleScroll);
+    return () => window.removeEventListener("hashchange", handleScroll);
+  }, [pathname]);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -46,10 +69,10 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 sm:h-[72px]">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 shrink-0">
+          <Link href={`${basePath}/`} className="flex items-center gap-2.5 shrink-0">
             <div className="relative h-12 w-44">
               <Image
-                src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/logo_horizontal_v2.jpg`}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo_horizontal_v2.jpg`}
                 alt="Aveera Scales Logo"
                 fill
                 className="object-contain"
@@ -64,7 +87,7 @@ export default function Header() {
             {/* Products Dropdown */}
             <div className="relative group">
               <Link
-                href="/#products"
+                href={`${basePath}/#products`}
                 className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-brand-blue transition-colors rounded-lg hover:bg-brand-blue/5"
               >
                 Products

@@ -25,7 +25,7 @@ export default function Industries() {
               >
                 <div className="relative h-48 overflow-hidden bg-gray-100">
                   <img 
-                    src={industry.image.startsWith('/') ? `${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}${industry.image}` : industry.image} 
+                    src={industry.image.startsWith('/') ? `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${industry.image}` : industry.image} 
                     alt={industry.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />

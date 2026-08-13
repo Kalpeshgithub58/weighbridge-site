@@ -58,7 +58,7 @@ export default function Products() {
                 >
                   <div className="relative h-48 sm:h-56 overflow-hidden bg-gray-100">
                     <Image 
-                      src={product.image.startsWith('/') ? `${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}${product.image}` : product.image}
+                      src={product.image.startsWith('/') ? `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${product.image}` : product.image}
                       alt={product.title}
                       fill
                       className={(product.image.endsWith('.png') || product.image.includes('platform_scale')) ? "object-contain p-4 bg-white" : "object-cover"}
@@ -90,7 +90,7 @@ export default function Products() {
                 >
                   <div className="relative h-56 overflow-hidden bg-gray-100">
                     <Image 
-                      src={product.image.startsWith('/') ? `${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}${product.image}` : product.image}
+                      src={product.image.startsWith('/') ? `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${product.image}` : product.image}
                       alt={product.title}
                       fill
                       className={(product.image.endsWith('.png') || product.image.includes('platform_scale')) ? "object-contain p-4 bg-white group-hover:scale-105 transition-transform duration-700" : "object-cover group-hover:scale-105 transition-transform duration-700"}

@@ -1,6 +1,7 @@
 import { siteConfig } from "@/lib/config";
 import { Phone, MapPin, Mail } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,7 +15,7 @@ export default function Footer() {
             <div className="flex items-center gap-2.5">
               <div className="relative h-12 w-44">
                 <Image
-                  src={`${process.env.NODE_ENV === 'production' ? '/weighbridge-site' : ''}/images/logo_horizontal_v2.jpg`}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo_horizontal_v2.jpg`}
                   alt="Aveera Scales Logo"
                   fill
                   className="object-contain object-left"
@@ -31,15 +32,15 @@ export default function Footer() {
           <div className="space-y-6">
             <h4 className="text-white font-bold text-lg">Quick Links</h4>
             <nav className="flex flex-col gap-3">
-              <a href="#products" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+              <Link href="/#products" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Products
-              </a>
-              <a href="#industries" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+              </Link>
+              <Link href="/#industries" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Industries
-              </a>
-              <a href="/services" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+              </Link>
+              <Link href="/services" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Software & Services
-              </a>
+              </Link>
               {/* <a href="/updates" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Technical Updates
               </a> */}
