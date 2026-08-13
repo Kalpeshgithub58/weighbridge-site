@@ -18,14 +18,12 @@ const groupedProducts = products.reduce((acc, product) => {
   return acc;
 }, {} as Record<string, typeof products>);
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
 const navLinks = [
-  { label: "Industries", href: `${basePath}/#industries` },
-  { label: "Software & Services", href: `${basePath}/services` },
+  { label: "Industries", href: "/#industries" },
+  { label: "Software & Services", href: "/services" },
   // { label: "Technical Updates", href: "/updates" },
-  { label: "About us", href: `${basePath}/#about` },
-  { label: "Contact & Support", href: `${basePath}/#contact` },
+  { label: "About us", href: "/#about" },
+  { label: "Contact & Support", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -95,7 +93,7 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 sm:h-[72px]">
           {/* Logo */}
-          <Link href={`${basePath}/`} className="flex items-center gap-2.5 shrink-0">
+          <Link href="/" className="flex items-center gap-2.5 shrink-0">
             <div className="relative h-12 w-44">
               <Image
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo_horizontal_v2.jpg`}
@@ -113,7 +111,7 @@ export default function Header() {
             {/* Products Dropdown */}
             <div className="relative group">
               <Link
-                href={`${basePath}/#products`}
+                href="/#products"
                 className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-brand-blue transition-colors rounded-lg hover:bg-brand-blue/5"
               >
                 Products
