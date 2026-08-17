@@ -1,3 +1,4 @@
+import SpecificationForm from '@/components/SpecificationForm';
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
@@ -150,38 +151,13 @@ export default function HopperSiloWeighingSystemPage() {
             <div className="sticky top-6 space-y-6">
                 
                 {/*  Advanced Lead Capture Widget  */}
-                <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
-                    <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-600"></div>
-                    
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
-                    <p className="text-xs text-slate-500 mb-6">Connect with our process integration engineers for mounting hardware profiles, PLC connectivity schematics, and pricing blueprints.</p>
-                    
-                    <form action="#" method="POST" className="space-y-4">
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Company / Full Name</label>
-                            <input type="text" placeholder="Enter your name" required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Direct Contact Number</label>
-                            <input type="tel" placeholder="+91 " required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Number of Supports (Legs)</label>
-                            <select className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-600 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
-                                <option>3 Leg Structural Base</option>
-                                <option>4 Leg Structural Base</option>
-                                <option>6 or Hanging/Suspended Hopper Profile</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Material Details</label>
-                            <textarea rows={3} placeholder="Specify stored product details (e.g., Cement, Hot Liquid Acid, Fine Powder Grains) and required PLC output strings..." className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all"></textarea>
-                        </div>
-                        <button type="submit" className="w-full bg-slate-950 hover:bg-slate-900 text-white font-semibold py-2.5 rounded-lg text-xs tracking-wider transition-colors shadow-xs cursor-pointer">
-                            SUBMIT ENGINEERING REQ <i className="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
-                        </button>
-                    </form>
-                </div>
+                <SpecificationForm
+                  productName="Hopper Silo Weighing System"
+                  description="Connect with our process integration engineers for mounting hardware profiles, PLC connectivity schematics, and pricing blueprints."
+                  dropdownLabel="Number of Supports (Legs)"
+                  dropdownOptions={["3 Leg Structural Base", "4 Leg Structural Base", "6 or Hanging/Suspended Hopper Profile"]}
+                  textareaPlaceholder="Specify stored product details (e.g., Cement, Hot Liquid Acid, Fine Powder Grains) and required PLC output strings..."
+                />
 
                 {/*  Industrial Fitment Parameters  */}
                 <div className="bg-slate-100 p-5 rounded-xl border border-slate-200">

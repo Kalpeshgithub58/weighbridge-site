@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 
 export const products = [
-   {
+  {
     title: 'Pitless Weighbridge',
     slug: 'pitless-weighbridge',
     category: 'Heavy Weighbridges',
@@ -124,13 +124,13 @@ export const products = [
     specifications: []
   },
   {
-    title: 'Double Ended Shear Beam Load Cell',
+    title: 'Double Ended Shear Beam Cup & Ball Load Cell',
     slug: 'double-ended-load-cell',
     category: 'Load Cells',
-    description: 'Accurate Double Ended Shear Beam Load Cells | For Medium and Heavy use.',
+    description: 'Accurate Double Ended Shear Beam Cup & Ball Load Cells | For Medium and Heavy use.',
     icon: Settings,
     image: '/images/double_ended_load_cell.jpg',
-    longDescription: 'The Double Ended Shear Beam load cell is the most trusted sensor for heavy industrial scales because it handles side-shocks very well.',
+    longDescription: 'The Double Ended Shear Beam Cup & Ball load cell is the most trusted sensor for heavy industrial scales because it handles side-shocks very well.',
     features: [],
     specifications: []
   },
@@ -293,5 +293,5 @@ export const technicalExpertise = [
 export const links = {
   phone: "+919876543210",
   whatsapp: "https://wa.me/919876543210",
-  email: "sales@aveerascales.com",
+  email: "info.aveerascales@gmail.com",
 };

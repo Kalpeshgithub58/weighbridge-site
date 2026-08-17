@@ -6,10 +6,10 @@ export const siteConfig = {
   address: "2nd floor, 222, Ronak Complex, Gondal road, Rajkot – 360002, Gujarat, India",
   city: "Rajkot",
   capacity: "Up to 200 Ton",
-  workingHours: "Mon-Sat: 9 AM - 6 PM",
+  workingHours: "Mon-Sat: 9 AM - 7 PM",
   mapQuery: "Aveera Weighing Scales",
   whatsappMessage: "Hello, I want to know about your weighing scales and services.",
-  email: "sales@aveerascales.com",
+  email: "info.aveerascales@gmail.com",
   seo: {
     title:
       "Aveera Weighing Scales | Trusted Dealer & Service Partner",

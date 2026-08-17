@@ -1,3 +1,4 @@
+import SpecificationForm from '@/components/SpecificationForm';
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
@@ -197,39 +198,13 @@ export default function PitlessWeighbridgePage() {
         <div className="lg:col-span-1">
             <div className="sticky top-6 space-y-6">
                 
-                <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
-                    <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-600"></div>
-                    
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
-                    <p className="text-xs text-slate-500 mb-6">Connect with our structural engineers for custom platform configurations and active quotation details.</p>
-                    
-                    <form action="#" method="POST" className="space-y-4">
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Company / Full Name</label>
-                            <input type="text" placeholder="Enter your name" required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Direct Contact Number</label>
-                            <input type="tel" placeholder="+91 " required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Application Environment</label>
-                            <select className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-600 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
-                                <option>Steel, Mining & Heavy Infrastructure</option>
-                                <option>Cement & Aggregates Manufacturing</option>
-                                <option>Agriculture, Mandis & Food Processing</option>
-                                <option>Logistics, Transports & Warehousing</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Custom Notes</label>
-                            <textarea rows={3} placeholder="Provide size details or targeted deployment location specs..." className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all"></textarea>
-                        </div>
-                        <button type="submit" className="w-full bg-slate-950 hover:bg-slate-900 text-white font-semibold py-2.5 rounded-lg text-xs tracking-wider transition-colors shadow-xs cursor-pointer">
-                            SUBMIT ENQUIRY <i className="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
-                        </button>
-                    </form>
-                </div>
+                <SpecificationForm
+                  productName="Pitless Weighbridge"
+                  description="Connect with our structural engineers for custom platform configurations and active quotation details."
+                  dropdownLabel="Application Environment"
+                  dropdownOptions={["Steel, Mining & Heavy Infrastructure", "Cement & Aggregates Manufacturing", "Agriculture, Mandis & Food Processing", "Logistics, Transports & Warehousing"]}
+                  textareaPlaceholder="Provide size details or targeted deployment location specs..."
+                />
 
                 <div className="bg-slate-100 p-5 rounded-xl border border-slate-200">
                     <h5 className="text-xs font-bold uppercase tracking-wider text-slate-700 mb-3">Deployment Environments:</h5>

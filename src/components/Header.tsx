@@ -20,7 +20,7 @@ const groupedProducts = products.reduce((acc, product) => {
 
 const navLinks = [
   { label: "Industries", href: "/#industries" },
-  { label: "Software & Services", href: "/services" },
+  { label: "Software & Services", href: "/#services" },
   // { label: "Technical Updates", href: "/updates" },
   { label: "About us", href: "/#about" },
   { label: "Contact & Support", href: "/#contact" },
@@ -56,7 +56,7 @@ export default function Header() {
       if (anchor && anchor.hash) {
         const targetPath = anchor.pathname.replace(/\/$/, "");
         const currentPath = window.location.pathname.replace(/\/$/, "");
-        
+
         // Check if we are on the same page
         if (targetPath === currentPath) {
           const id = anchor.hash.replace("#", "");
@@ -85,10 +85,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-          ? "bg-white/95 backdrop-blur-md shadow-md border-b border-gray-100 py-0"
-          : "bg-white border-b border-gray-100 py-1"
-        }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white border-b border-gray-100 py-1`}
     >
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 sm:h-[72px]">

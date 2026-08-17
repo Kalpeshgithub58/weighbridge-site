@@ -1,3 +1,4 @@
+import SpecificationForm from '@/components/SpecificationForm';
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
@@ -206,39 +207,14 @@ export default function JewelleryWeighingScalesPage() {
             <div className="sticky top-6 space-y-6">
                 
                 {/*  Advanced Lead Capture Widget  */}
-                <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
-                    <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-gradient-to-r from-amber-400 to-amber-600"></div>
-                    
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
-                    <p className="text-xs text-slate-500 mb-6">Connect with our micro-metrology consultants for legal stamping queries, retail interface setups, and detailed bulk quotes.</p>
-                    
-                    <form action="#" method="POST" className="space-y-4">
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Showroom / Company Name</label>
-                            <input type="text" placeholder="Enter name" required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Direct Contact Number</label>
-                            <input type="tel" placeholder="+91 " required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Primary Application</label>
-                            <select className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-600 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
-                                <option>Gold Bullion & Retail Jewellery Showroom</option>
-                                <option>Diamond & Precious Gemstone Grading</option>
-                                <option>Chemical Analytical & Pharmaceutical Lab</option>
-                                <option>Silverware & Industrial Precision Weight Check</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Custom Notes</label>
-                            <textarea rows={3} placeholder="Specify if you require external secondary displays, POS system printer hooks, or customized calibration weights..." className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all"></textarea>
-                        </div>
-                        <button type="submit" className="w-full bg-slate-950 hover:bg-slate-900 text-white font-semibold py-2.5 rounded-lg text-xs tracking-wider transition-colors shadow-xs cursor-pointer">
-                            SUBMIT ENQUIRY <i className="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
-                        </button>
-                    </form>
-                </div>
+                <SpecificationForm
+                  productName="Lab and Jewellery Scales"
+                  description="Connect with our micro-metrology consultants for legal stamping queries, retail interface setups, and detailed bulk quotes."
+                  nameLabel="Showroom / Company Name"
+                  dropdownLabel="Primary Application"
+                  dropdownOptions={["Gold Bullion & Retail Jewellery Showroom", "Diamond & Precious Gemstone Grading", "Chemical Analytical & Pharmaceutical Lab", "Silverware & Industrial Precision Weight Check"]}
+                  textareaPlaceholder="Specify if you require external secondary displays, POS system printer hooks, or customized calibration weights..."
+                />
 
                 {/*  Industrial Fitment Parameters  */}
                 <div className="bg-slate-100 p-5 rounded-xl border border-slate-200">

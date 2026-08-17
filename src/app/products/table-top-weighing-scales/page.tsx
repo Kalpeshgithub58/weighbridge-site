@@ -1,3 +1,4 @@
+import SpecificationForm from '@/components/SpecificationForm';
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
@@ -150,39 +151,15 @@ export default function TableTopWeighingScalesPage() {
             <div className="sticky top-6 space-y-6">
                 
                 {/*  Advanced Lead Capture Widget  */}
-                <div className="bg-white border border-slate-200 p-6 rounded-2xl shadow-xl relative overflow-hidden">
-                    <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-600"></div>
-                    
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">Request Technical Specification</h3>
-                    <p className="text-xs text-slate-500 mb-6">Connect with our retail integration specialists for custom dealership pricing models, stamping certifications, and active volume discounts.</p>
-                    
-                    <form action="#" method="POST" className="space-y-4">
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Store / Business Name</label>
-                            <input type="text" placeholder="Enter shop or company name" required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Direct Contact Number</label>
-                            <input type="tel" placeholder="+91 " required className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all" />
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Target Retail Segment</label>
-                            <select className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-600 focus:outline-none focus:border-amber-500 focus:bg-white transition-all">
-                                <option>Kirana, Grocery & Provisions Shop</option>
-                                <option>Sweet Showroom & Bakery Outlets</option>
-                                <option>Industrial Packaging & Courier Logistics</option>
-                                <option>Wholesale Grain / Commercial Marts</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label className="block text-[11px] uppercase font-bold tracking-wider text-slate-500 mb-1">Custom Notes</label>
-                            <textarea rows={3} placeholder="Specify if you require deep pan designs, stainless steel outer poles, or specific regional language display settings..." className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 text-xs text-slate-900 focus:outline-none focus:border-amber-500 focus:bg-white transition-all"></textarea>
-                        </div>
-                        <button type="submit" className="w-full bg-slate-950 hover:bg-slate-900 text-white font-semibold py-2.5 rounded-lg text-xs tracking-wider transition-colors shadow-xs cursor-pointer">
-                            SUBMIT ENQUIRY <i className="fa-solid fa-chevron-right ml-1 text-[10px]"></i>
-                        </button>
-                    </form>
-                </div>
+                <SpecificationForm
+                  productName="Table Top Weighing Scales"
+                  description="Connect with our retail integration specialists for custom dealership pricing models, stamping certifications, and active volume discounts."
+                  nameLabel="Store / Business Name"
+                  namePlaceholder="Enter shop or company name"
+                  dropdownLabel="Target Retail Segment"
+                  dropdownOptions={["Kirana, Grocery & Provisions Shop", "Sweet Showroom & Bakery Outlets", "Industrial Packaging & Courier Logistics", "Wholesale Grain / Commercial Marts"]}
+                  textareaPlaceholder="Specify if you require deep pan designs, stainless steel outer poles, or specific regional language display settings..."
+                />
 
                 {/*  Industrial Fitment Parameters  */}
                 <div className="bg-slate-100 p-5 rounded-xl border border-slate-200">

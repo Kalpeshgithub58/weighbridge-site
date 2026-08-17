@@ -38,7 +38,7 @@ export default function Footer() {
               <Link href="/#industries" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Industries
               </Link>
-              <Link href="/services" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
+              <Link href="/#services" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-brand-orange/50"></span> Software & Services
               </Link>
               {/* <a href="/updates" className="text-gray-400 hover:text-brand-orange transition-colors text-sm flex items-center gap-2">
